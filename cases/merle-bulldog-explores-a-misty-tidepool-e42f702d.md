@@ -4,7 +4,9 @@ A blue-gray merle French bulldog studies a reflective tidepool on a cool, mist-s
 
 <p align="center"><img src="../assets/merle-bulldog-explores-a-misty-tidepool-e42f702d.jpg" alt="A blue-gray merle French bulldog studies a reflective tidepool on a cool, mist-softened coast." width="760"></p>
 
-## Exact prompt
+**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+
+## Prompt
 
 Copy this standalone prompt as a starting point. Image generation is nondeterministic, so a rerun will not reproduce identical pixels.
 
@@ -14,11 +16,11 @@ A crisp natural photograph of a blue-gray merle French bulldog exploring a misty
 
 ## Reference-based run recipe
 
-This case was generated from founder-provided reference sheets rather than from text alone. The sheets are required image inputs to reproduce the run; each is published below and under `assets/references/` so the result can be compared with its references, and the standalone prompt above remains the public copyable prompt.
+This case was generated from reference sheets supplied by the founder rather than from text alone. The sheets are required image inputs to reproduce the run; each is published below and under `assets/references/` so the result can be compared with its references, and the standalone prompt above remains the public copyable prompt.
 
 **Ordered references**
 
-1. `assets/references/merle-bulldog-identity-sheet.png` — Sole merle French bulldog identity anchor; square head, wide-set bat ears, short muzzle, pale eyes, merle pattern language, cobby body proportions, and paw anatomy
+1. `assets/references/merle-bulldog-identity-sheet.png`: Sole merle French bulldog identity anchor; square head, wide-set bat ears, short muzzle, pale eyes, merle pattern language, cobby body proportions, and paw anatomy
    - SHA-256 `dbccf357892830cd1c717d6cc69a863c58547d0c7017ec7fe6afc0256b9332c9`
    - Founder-supplied identity sheet; founder-stated GPT Image 2.5 output.
 
@@ -45,7 +47,7 @@ Avoid: tall lean terrier proportions, narrow head, long snout, low ear set, blue
 
 | Field | Value |
 | --- | --- |
-| Model family | GPT Image 2.5 |
+| Tested on | GPT Image 2.5 |
 | Generation tool | built-in imagegen |
 | Exact backend | unknown |
 | Mode | reference-based identity-preserve |
@@ -58,6 +60,6 @@ Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exa
 
 **pass · checked 2026-09-17.** Verification confirmed every listed breed marker against the merle French bulldog anchor: broad nearly square head, tall upright bat ears set wide apart with rounded tips, an extremely short wrinkled muzzle, pale blue-grey eyes set wide, cream base coat with irregular blue-grey merle mottling rather than stripes or spots, wide chest, and a short tail stub. The limb count was checked at native resolution: four distinct weight-bearing legs and four coherent paws with separated toes and visible claws, one head, two ears, no fused or duplicated limb, and the tidepool reflection reads as an inverted blur rather than a second dog. Note, not a defect: the measured cream-body length-to-withers ratio of 1.30 sits at the upper end of 'slightly longer than tall', so the build reads a touch leggier and less cobby than the stocky reference, with straighter legs; recognition is unaffected.
 
-This team-generated campaign case was produced directly by the Alosem team with built-in imagegen from founder-provided identity sheets; it is neither externally published nor created through the Alosem creative product, so it is labeled **Created for Alosem**.
+This team-generated campaign case was produced directly by the pixexid team with built-in imagegen from identity sheets supplied by the founder; it is neither externally published nor made in the pixexid product, so it is labeled **Created for pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). The preview image is hosted in this repository under the same licence.

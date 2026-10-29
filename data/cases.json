@@ -3,7 +3,7 @@
   "cases": [
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "2f97d52a-0320-53a2-acd3-5f45f04b6b9d",
       "slug": "06-minimalist-scooter-village-2f97d52a",
       "title": "06 Minimalist Scooter Village",
@@ -40,17 +40,17 @@
         "verdict": "pass",
         "notes": "Brand-free fictional scooter, both wheels and full body inside frame, no readable text/logo/watermark; cobblestone lane, flowering balcony and ochre wall all present. Two minor prompt deviations noted but not defects: mirrors are rounded, not the requested 'rectangular mirrors', and faint embossed emblem-like marks sit on the front shield and left side panel despite the prompt's 'no badge, emblem, medallion' clause. Neither is readable branding."
       },
-      "canonical_url": "https://alosem.com/i/06-minimalist-scooter-village-2f97d52a",
+      "canonical_url": "https://pixexid.com/i/06-minimalist-scooter-village-2f97d52a",
       "image_urls": {
-        "512": "https://pi.alosem.com/06-minimalist-scooter-village-2f97d52a/70b39a04fa77/512.webp",
-        "1024": "https://pi.alosem.com/06-minimalist-scooter-village-2f97d52a/51812f398e51/1024.webp",
-        "original": "https://pi.alosem.com/06-minimalist-scooter-village-2f97d52a/7880c25a6326/original.jpg"
+        "512": "https://media.pixexid.com/06-minimalist-scooter-village-2f97d52a/70b39a04fa77/512.webp",
+        "1024": "https://media.pixexid.com/06-minimalist-scooter-village-2f97d52a/51812f398e51/1024.webp",
+        "original": "https://media.pixexid.com/06-minimalist-scooter-village-2f97d52a/7880c25a6326/original.jpg"
       },
       "created_at": "2026-09-14T08:43:43.777Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "8b5688cf-fd12-55c9-a0bc-bf25ef391d13",
       "slug": "mint-concept-motorcycle-in-a-dark-garage-8b5688cf",
       "title": "Mint Concept Motorcycle in a Dark Garage",
@@ -94,17 +94,17 @@
         "verdict": "pass",
         "notes": "Fully framed mint concept bike, coherent tires, discs, forks, fairing and grounded reflection. Fairing panels are blank and unbadged as required; faint unreadable embossing appears only on the rear hub cover, which is not a fairing panel. Single-sided rear hub with radial struts reads as a deliberate concept design, not a missing swingarm."
       },
-      "canonical_url": "https://alosem.com/i/mint-concept-motorcycle-in-a-dark-garage-8b5688cf",
+      "canonical_url": "https://pixexid.com/i/mint-concept-motorcycle-in-a-dark-garage-8b5688cf",
       "image_urls": {
-        "512": "https://pi.alosem.com/mint-concept-motorcycle-in-a-dark-garage-8b5688cf/eea3530670f6/512.webp",
-        "1024": "https://pi.alosem.com/mint-concept-motorcycle-in-a-dark-garage-8b5688cf/3c9a3781ae75/1024.webp",
-        "original": "https://pi.alosem.com/mint-concept-motorcycle-in-a-dark-garage-8b5688cf/e46e3ff3a6d8/original.jpg"
+        "512": "https://media.pixexid.com/mint-concept-motorcycle-in-a-dark-garage-8b5688cf/eea3530670f6/512.webp",
+        "1024": "https://media.pixexid.com/mint-concept-motorcycle-in-a-dark-garage-8b5688cf/3c9a3781ae75/1024.webp",
+        "original": "https://media.pixexid.com/mint-concept-motorcycle-in-a-dark-garage-8b5688cf/e46e3ff3a6d8/original.jpg"
       },
       "created_at": "2026-09-12T04:59:25.000Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "579c8330-ce3f-5ed3-a2f2-40ed9cdf2497",
       "slug": "chrome-watering-can-pours-a-silver-arc-579c8330",
       "title": "Chrome Watering Can Pours a Silver Arc",
@@ -148,17 +148,17 @@
         "verdict": "pass",
         "notes": "Hand grip verified at 1024px: four curled fingers plus a thumb with a visible nail wrapping the arched handle - no extra or missing digit. One integrated handle, one tapering spout, one continuous stream landing in the soil beside the poppy stem. Chrome surfaces plain and unmarked; sky/horizon reflections continuous across body and spout. Agrees with the original reviewer."
       },
-      "canonical_url": "https://alosem.com/i/chrome-watering-can-pours-a-silver-arc-579c8330",
+      "canonical_url": "https://pixexid.com/i/chrome-watering-can-pours-a-silver-arc-579c8330",
       "image_urls": {
-        "512": "https://pi.alosem.com/chrome-watering-can-pours-a-silver-arc-579c8330/7d9599c26b7d/512.webp",
-        "1024": "https://pi.alosem.com/chrome-watering-can-pours-a-silver-arc-579c8330/86ab315f3612/1024.webp",
-        "original": "https://pi.alosem.com/chrome-watering-can-pours-a-silver-arc-579c8330/b3fa185f81fc/original.jpg"
+        "512": "https://media.pixexid.com/chrome-watering-can-pours-a-silver-arc-579c8330/7d9599c26b7d/512.webp",
+        "1024": "https://media.pixexid.com/chrome-watering-can-pours-a-silver-arc-579c8330/86ab315f3612/1024.webp",
+        "original": "https://media.pixexid.com/chrome-watering-can-pours-a-silver-arc-579c8330/b3fa185f81fc/original.jpg"
       },
       "created_at": "2026-09-09T01:39:17.924Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "6b2eb59a-d312-510b-a844-34b4322eac87",
       "slug": "glow-retro-poster-of-a-bass-player-and-boy-6b2eb59a",
       "title": "Glow Retro Poster of a Bass Player and Boy",
@@ -202,17 +202,17 @@
         "verdict": "pass",
         "notes": "Letter-by-letter against the prompt's 'the word GLOW spans the full width in enormous flat red display letters, cropped by the canvas edges': G-L-O-W, left to right, four glyphs, no substitution, duplication, omission or extra word. Edge cropping of the G and the display type is explicitly requested, not a defect. Tall man in long black coat with double-bass case, small boy with green paper lantern on a short pole, both walking left to right, man's head into the lettering zone, red disc low right, dark city silhouettes and one green leaf shape at the bottom corners - all delivered. No gibberish text anywhere else."
       },
-      "canonical_url": "https://alosem.com/i/glow-retro-poster-of-a-bass-player-and-boy-6b2eb59a",
+      "canonical_url": "https://pixexid.com/i/glow-retro-poster-of-a-bass-player-and-boy-6b2eb59a",
       "image_urls": {
-        "512": "https://pi.alosem.com/glow-retro-poster-of-a-bass-player-and-boy-6b2eb59a/5c6352b75260/512.webp",
-        "1024": "https://pi.alosem.com/glow-retro-poster-of-a-bass-player-and-boy-6b2eb59a/09207828be8c/1024.webp",
-        "original": "https://pi.alosem.com/glow-retro-poster-of-a-bass-player-and-boy-6b2eb59a/2d4c1b683056/original.jpg"
+        "512": "https://media.pixexid.com/glow-retro-poster-of-a-bass-player-and-boy-6b2eb59a/5c6352b75260/512.webp",
+        "1024": "https://media.pixexid.com/glow-retro-poster-of-a-bass-player-and-boy-6b2eb59a/09207828be8c/1024.webp",
+        "original": "https://media.pixexid.com/glow-retro-poster-of-a-bass-player-and-boy-6b2eb59a/2d4c1b683056/original.jpg"
       },
       "created_at": "2026-09-11T19:02:47.000Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "4712aff7-c5a9-5af9-af08-0a9ffce6822c",
       "slug": "pressed-flower-wren-on-twig-slice-4712aff7",
       "title": "Pressed Flower Wren on Twig Slice",
@@ -258,17 +258,17 @@
         "verdict": "pass",
         "notes": "REAL ALPHA verified programmatically at 1024x576: p(0,0)=srgba(0,0,0,0); all four corners and midpoints alpha=0; max alpha on every border row/column = 0/255, so nothing is clipped. Opaque fraction 0.254; content bbox 965x538+28+23 leaves margin on all sides. No drawn checkerboard anywhere. Wren has coherent beak, eye, feet gripping the twig, tail; petals and leaf veins readable. No text or watermark."
       },
-      "canonical_url": "https://alosem.com/i/pressed-flower-wren-on-twig-slice-4712aff7",
+      "canonical_url": "https://pixexid.com/i/pressed-flower-wren-on-twig-slice-4712aff7",
       "image_urls": {
-        "512": "https://pi.alosem.com/pressed-flower-wren-on-twig-slice-4712aff7/8d21024cfc7a/512.webp",
-        "1024": "https://pi.alosem.com/pressed-flower-wren-on-twig-slice-4712aff7/8fd0d8fd8a5c/1024.webp",
-        "original": "https://pi.alosem.com/pressed-flower-wren-on-twig-slice-4712aff7/2fc6f00845e4/original.webp"
+        "512": "https://media.pixexid.com/pressed-flower-wren-on-twig-slice-4712aff7/8d21024cfc7a/512.webp",
+        "1024": "https://media.pixexid.com/pressed-flower-wren-on-twig-slice-4712aff7/8fd0d8fd8a5c/1024.webp",
+        "original": "https://media.pixexid.com/pressed-flower-wren-on-twig-slice-4712aff7/2fc6f00845e4/original.webp"
       },
       "created_at": "2026-09-17T04:49:51.000Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "2900cbdd-424a-58b3-a7c3-8c51a8dca836",
       "slug": "iron-dragonfly-on-reeds-slice-2900cbdd",
       "title": "Iron Dragonfly on Reeds Slice",
@@ -314,17 +314,17 @@
         "verdict": "pass",
         "notes": "REAL ALPHA verified at 1024x576: p(0,0)=srgba(0,0,0,0), all corners 0, border max alpha 0/255 on all four edges. Opaque fraction 0.183; bbox 963x554+31+11. Four separated wings, segmented abdomen, legs attached to the forged stem. Free-floating leaf and ball fragments are consistent with the scattered-fragment prompt language. Nothing clipped."
       },
-      "canonical_url": "https://alosem.com/i/iron-dragonfly-on-reeds-slice-2900cbdd",
+      "canonical_url": "https://pixexid.com/i/iron-dragonfly-on-reeds-slice-2900cbdd",
       "image_urls": {
-        "512": "https://pi.alosem.com/iron-dragonfly-on-reeds-slice-2900cbdd/ba39e13a7f6c/512.webp",
-        "1024": "https://pi.alosem.com/iron-dragonfly-on-reeds-slice-2900cbdd/6f131e4a3fe6/1024.webp",
-        "original": "https://pi.alosem.com/iron-dragonfly-on-reeds-slice-2900cbdd/90d80b5a0c3d/original.webp"
+        "512": "https://media.pixexid.com/iron-dragonfly-on-reeds-slice-2900cbdd/ba39e13a7f6c/512.webp",
+        "1024": "https://media.pixexid.com/iron-dragonfly-on-reeds-slice-2900cbdd/6f131e4a3fe6/1024.webp",
+        "original": "https://media.pixexid.com/iron-dragonfly-on-reeds-slice-2900cbdd/90d80b5a0c3d/original.webp"
       },
       "created_at": "2026-09-15T23:10:43.000Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "946dfa40-b3e1-59f6-a9af-82a6ace8b1f9",
       "slug": "punched-tin-sun-medallion-slice-946dfa40",
       "title": "Punched Tin Sun Medallion Slice",
@@ -370,17 +370,17 @@
         "verdict": "pass",
         "notes": "REAL ALPHA verified at 1024x1024: p(0,0)=srgba(0,0,0,0); bottom-left reads srgba(0,0,0,0.00392157) (alpha 1/255, effectively transparent); border max alpha 0-1/255. Opaque fraction 0.479. Centred face is symmetric for the folk-art idiom, concentric punched rings, rays, ribbons, stars and hanging beads all contained. No text or signature."
       },
-      "canonical_url": "https://alosem.com/i/punched-tin-sun-medallion-slice-946dfa40",
+      "canonical_url": "https://pixexid.com/i/punched-tin-sun-medallion-slice-946dfa40",
       "image_urls": {
-        "512": "https://pi.alosem.com/punched-tin-sun-medallion-slice-946dfa40/32ab1a1580d6/512.webp",
-        "1024": "https://pi.alosem.com/punched-tin-sun-medallion-slice-946dfa40/4180994b2adf/1024.webp",
-        "original": "https://pi.alosem.com/punched-tin-sun-medallion-slice-946dfa40/520a916c5c1f/original.webp"
+        "512": "https://media.pixexid.com/punched-tin-sun-medallion-slice-946dfa40/32ab1a1580d6/512.webp",
+        "1024": "https://media.pixexid.com/punched-tin-sun-medallion-slice-946dfa40/4180994b2adf/1024.webp",
+        "original": "https://media.pixexid.com/punched-tin-sun-medallion-slice-946dfa40/520a916c5c1f/original.webp"
       },
       "created_at": "2026-09-15T23:09:38.000Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "1d5e0d44-2fa9-5c07-a6ca-937295562df9",
       "slug": "spring-ridge-walk-leaf-collage-slice-1d5e0d44",
       "title": "Spring Ridge Walk Leaf Collage Slice",
@@ -426,17 +426,17 @@
         "verdict": "pass",
         "notes": "REAL ALPHA verified at 576x1024: p(0,0)=srgba(0,0,0,0), all corners 0, border max alpha 0-1/255. Opaque fraction 0.465; bbox 568x977+0+12. Layered leaf-collage ridges, two ink walkers, one flowering tree, mist and coral sun on cream paper. Nothing clipped, no text."
       },
-      "canonical_url": "https://alosem.com/i/spring-ridge-walk-leaf-collage-slice-1d5e0d44",
+      "canonical_url": "https://pixexid.com/i/spring-ridge-walk-leaf-collage-slice-1d5e0d44",
       "image_urls": {
-        "512": "https://pi.alosem.com/spring-ridge-walk-leaf-collage-slice-1d5e0d44/4c602fd1907d/512.webp",
-        "1024": "https://pi.alosem.com/spring-ridge-walk-leaf-collage-slice-1d5e0d44/f54c86140516/1024.webp",
-        "original": "https://pi.alosem.com/spring-ridge-walk-leaf-collage-slice-1d5e0d44/10560daaf472/original.webp"
+        "512": "https://media.pixexid.com/spring-ridge-walk-leaf-collage-slice-1d5e0d44/4c602fd1907d/512.webp",
+        "1024": "https://media.pixexid.com/spring-ridge-walk-leaf-collage-slice-1d5e0d44/f54c86140516/1024.webp",
+        "original": "https://media.pixexid.com/spring-ridge-walk-leaf-collage-slice-1d5e0d44/10560daaf472/original.webp"
       },
       "created_at": "2026-09-17T06:08:00.000Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "7cd0690d-3bc6-57b7-a2c8-e0de616f8cc0",
       "slug": "quilled-blossom-branch-with-birds-7cd0690d",
       "title": "Quilled Blossom Branch with Birds",
@@ -482,17 +482,17 @@
         "verdict": "pass",
         "notes": "REAL ALPHA verified at 1024x1024: p(0,0)=srgba(0,0,0,0); border max alpha 0-1/255. Opaque fraction 0.261; bbox 998x1007+0+17. Two anatomically coherent quilled birds on one blossom branch; coiled paper petals, leaves and tendrils legible. No detached artifact, text or watermark."
       },
-      "canonical_url": "https://alosem.com/i/quilled-blossom-branch-with-birds-7cd0690d",
+      "canonical_url": "https://pixexid.com/i/quilled-blossom-branch-with-birds-7cd0690d",
       "image_urls": {
-        "512": "https://pi.alosem.com/quilled-blossom-branch-with-birds-7cd0690d/cb158ff6fce5/512.webp",
-        "1024": "https://pi.alosem.com/quilled-blossom-branch-with-birds-7cd0690d/dc5718bac3c0/1024.webp",
-        "original": "https://pi.alosem.com/quilled-blossom-branch-with-birds-7cd0690d/cb61b2c02e1e/original.webp"
+        "512": "https://media.pixexid.com/quilled-blossom-branch-with-birds-7cd0690d/cb158ff6fce5/512.webp",
+        "1024": "https://media.pixexid.com/quilled-blossom-branch-with-birds-7cd0690d/dc5718bac3c0/1024.webp",
+        "original": "https://media.pixexid.com/quilled-blossom-branch-with-birds-7cd0690d/cb61b2c02e1e/original.webp"
       },
       "created_at": "2026-09-15T22:43:35.000Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "d16dc431-cad5-5918-aa48-7136a2779053",
       "slug": "cub-sending-off-a-paper-boat-d16dc431",
       "title": "Cub Sending Off a Paper Boat",
@@ -538,17 +538,17 @@
         "verdict": "pass",
         "notes": "Correctly classified as illustration_backgrounds, not transparent_assets: the prompt asks for the slice on a flat pale-blush surface and the file has no alpha channel, matching hasTransparency=false. Cub, red paper boat, ripple trail, feathered gouache rim and flat uniform blush field to all four borders are as prompted. Hindquarters dissolving into foliage is the stated gouache-dissolve effect."
       },
-      "canonical_url": "https://alosem.com/i/cub-sending-off-a-paper-boat-d16dc431",
+      "canonical_url": "https://pixexid.com/i/cub-sending-off-a-paper-boat-d16dc431",
       "image_urls": {
-        "512": "https://pi.alosem.com/cub-sending-off-a-paper-boat-d16dc431/240920f55ba6/512.webp",
-        "1024": "https://pi.alosem.com/cub-sending-off-a-paper-boat-d16dc431/f5536fdbcbf9/1024.webp",
-        "original": "https://pi.alosem.com/cub-sending-off-a-paper-boat-d16dc431/335cff08d916/original.jpg"
+        "512": "https://media.pixexid.com/cub-sending-off-a-paper-boat-d16dc431/240920f55ba6/512.webp",
+        "1024": "https://media.pixexid.com/cub-sending-off-a-paper-boat-d16dc431/f5536fdbcbf9/1024.webp",
+        "original": "https://media.pixexid.com/cub-sending-off-a-paper-boat-d16dc431/335cff08d916/original.jpg"
       },
       "created_at": "2026-09-15T06:42:59.000Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "fae5026b-8e66-5faa-a3ac-20af3d74531c",
       "slug": "paper-boats-carrying-small-planets-fae5026b",
       "title": "Paper Boats Carrying Small Planets",
@@ -594,17 +594,17 @@
         "verdict": "pass",
         "notes": "Exactly three cream paper boats, each with clear dark margin and none cropped. Cargo matches the prompt precisely: one rose-gold ringed planet, one pale gold banded planet, one lavender-grey moon. NOTE - the original review note says 'each carrying one differently colored ringed planet', which is inaccurate; only one carries a ring. The image is correct, the note is not."
       },
-      "canonical_url": "https://alosem.com/i/paper-boats-carrying-small-planets-fae5026b",
+      "canonical_url": "https://pixexid.com/i/paper-boats-carrying-small-planets-fae5026b",
       "image_urls": {
-        "512": "https://pi.alosem.com/paper-boats-carrying-small-planets-fae5026b/c146a3fc12d1/512.webp",
-        "1024": "https://pi.alosem.com/paper-boats-carrying-small-planets-fae5026b/e4585bac9cf5/1024.webp",
-        "original": "https://pi.alosem.com/paper-boats-carrying-small-planets-fae5026b/4683e1af8be9/original.jpg"
+        "512": "https://media.pixexid.com/paper-boats-carrying-small-planets-fae5026b/c146a3fc12d1/512.webp",
+        "1024": "https://media.pixexid.com/paper-boats-carrying-small-planets-fae5026b/e4585bac9cf5/1024.webp",
+        "original": "https://media.pixexid.com/paper-boats-carrying-small-planets-fae5026b/4683e1af8be9/original.jpg"
       },
       "created_at": "2026-09-14T22:31:59.000Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "99225b4c-0cd9-5c95-ad6c-66d0fce1023e",
       "slug": "small-storm-spirit-brewing-tea-99225b4c",
       "title": "Small Storm Spirit Brewing Tea",
@@ -650,17 +650,17 @@
         "verdict": "pass",
         "notes": "Verified at 1024px that the loop actually closes: steam rises from the cup on the right and the rain streaks pass the face and land visibly in the tea, satisfying 'a thin rain falls from that cloud neatly back into the same cup'. Both mitten hands hold the cup, two feet, faint oval shadow, generous margin, nothing touches the frame edges. No text."
       },
-      "canonical_url": "https://alosem.com/i/small-storm-spirit-brewing-tea-99225b4c",
+      "canonical_url": "https://pixexid.com/i/small-storm-spirit-brewing-tea-99225b4c",
       "image_urls": {
-        "512": "https://pi.alosem.com/small-storm-spirit-brewing-tea-99225b4c/c60463a3b714/512.webp",
-        "1024": "https://pi.alosem.com/small-storm-spirit-brewing-tea-99225b4c/887766280491/1024.webp",
-        "original": "https://pi.alosem.com/small-storm-spirit-brewing-tea-99225b4c/9344ccaa06b4/original.jpg"
+        "512": "https://media.pixexid.com/small-storm-spirit-brewing-tea-99225b4c/c60463a3b714/512.webp",
+        "1024": "https://media.pixexid.com/small-storm-spirit-brewing-tea-99225b4c/887766280491/1024.webp",
+        "original": "https://media.pixexid.com/small-storm-spirit-brewing-tea-99225b4c/9344ccaa06b4/original.jpg"
       },
       "created_at": "2026-09-14T22:31:05.000Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "a539a581-2e7d-5975-afde-3fdc3fbcdf27",
       "slug": "glass-whale-carrying-light-fish-a539a581",
       "title": "Glass Whale Carrying Light Fish",
@@ -706,17 +706,17 @@
         "verdict": "pass",
         "notes": "Complete glass whale with readable head, eye, ridged throat, lifted fluke and two pectoral fins - the long knobbed lower-left form is the far pectoral, not a stray limb. Luminous fish visible inside the refracting body; caustic bands and frosted bloom near the tail as prompted. No clipping, lettering, watermark or second whale."
       },
-      "canonical_url": "https://alosem.com/i/glass-whale-carrying-light-fish-a539a581",
+      "canonical_url": "https://pixexid.com/i/glass-whale-carrying-light-fish-a539a581",
       "image_urls": {
-        "512": "https://pi.alosem.com/glass-whale-carrying-light-fish-a539a581/38a47962da94/512.webp",
-        "1024": "https://pi.alosem.com/glass-whale-carrying-light-fish-a539a581/292b0e7d99be/1024.webp",
-        "original": "https://pi.alosem.com/glass-whale-carrying-light-fish-a539a581/13a73cb6fb66/original.jpg"
+        "512": "https://media.pixexid.com/glass-whale-carrying-light-fish-a539a581/38a47962da94/512.webp",
+        "1024": "https://media.pixexid.com/glass-whale-carrying-light-fish-a539a581/292b0e7d99be/1024.webp",
+        "original": "https://media.pixexid.com/glass-whale-carrying-light-fish-a539a581/13a73cb6fb66/original.jpg"
       },
       "created_at": "2026-09-14T20:17:43.000Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "658fea7d-bec7-58f3-af95-795dd0503214",
       "slug": "forest-giant-waits-for-the-last-bus-658fea7d",
       "title": "Forest Giant Waits for the Last Bus",
@@ -762,17 +762,17 @@
         "verdict": "pass",
         "notes": "Dense but legible narrative background; four characters, snow, lamp pool, approaching bus headlights on the left, giant kneeling with a blank ticket between two fingers. Two prompt-count notes where I disagree with the original reviewer: I can verify only three clear arms and roughly five bags on the grandmother, not 'four arms, one shopping bag per arm', and the tiny creature stands beside the rail rather than 'gripping the rail with both mittens'. Neither is an anatomy break - no limb is detached or malformed - so this does not disqualify the case."
       },
-      "canonical_url": "https://alosem.com/i/forest-giant-waits-for-the-last-bus-658fea7d",
+      "canonical_url": "https://pixexid.com/i/forest-giant-waits-for-the-last-bus-658fea7d",
       "image_urls": {
-        "512": "https://pi.alosem.com/forest-giant-waits-for-the-last-bus-658fea7d/e386bd62c4a6/512.webp",
-        "1024": "https://pi.alosem.com/forest-giant-waits-for-the-last-bus-658fea7d/08420b093350/1024.webp",
-        "original": "https://pi.alosem.com/forest-giant-waits-for-the-last-bus-658fea7d/a8057190efe2/original.jpg"
+        "512": "https://media.pixexid.com/forest-giant-waits-for-the-last-bus-658fea7d/e386bd62c4a6/512.webp",
+        "1024": "https://media.pixexid.com/forest-giant-waits-for-the-last-bus-658fea7d/08420b093350/1024.webp",
+        "original": "https://media.pixexid.com/forest-giant-waits-for-the-last-bus-658fea7d/a8057190efe2/original.jpg"
       },
       "created_at": "2026-09-14T20:16:43.000Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "5279e774-8043-5393-a70b-03e887aa88c8",
       "slug": "radio-telescope-inside-a-paper-spiral-5279e774",
       "title": "Radio Telescope Inside a Paper Spiral",
@@ -816,17 +816,17 @@
         "verdict": "pass",
         "notes": "Exactly one rust-red telescope on the left third, dish tilted toward the crescent on the upper right, fully separated from every torn edge, legs planted on the salt crust, complete dish silhouette. Silver track curves from the base and continues into the spiral tear; crescent reflected once in a pool. Paper, panels and horizon all blank. No text."
       },
-      "canonical_url": "https://alosem.com/i/radio-telescope-inside-a-paper-spiral-5279e774",
+      "canonical_url": "https://pixexid.com/i/radio-telescope-inside-a-paper-spiral-5279e774",
       "image_urls": {
-        "512": "https://pi.alosem.com/radio-telescope-inside-a-paper-spiral-5279e774/b39279d281c5/512.webp",
-        "1024": "https://pi.alosem.com/radio-telescope-inside-a-paper-spiral-5279e774/8f3bd3007254/1024.webp",
-        "original": "https://pi.alosem.com/radio-telescope-inside-a-paper-spiral-5279e774/7de77bca0fcc/original.jpg"
+        "512": "https://media.pixexid.com/radio-telescope-inside-a-paper-spiral-5279e774/b39279d281c5/512.webp",
+        "1024": "https://media.pixexid.com/radio-telescope-inside-a-paper-spiral-5279e774/8f3bd3007254/1024.webp",
+        "original": "https://media.pixexid.com/radio-telescope-inside-a-paper-spiral-5279e774/7de77bca0fcc/original.jpg"
       },
       "created_at": "2026-09-14T09:29:48.048Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "55f0fc0d-cc26-58cc-a48a-0752814d1f3a",
       "slug": "paper-city-living-canopy-55f0fc0d",
       "title": "Paper City, Living Canopy",
@@ -865,17 +865,17 @@
         "verdict": "pass",
         "notes": "Exactly three tall planted towers - no random extra tower - with one elevated pedestrian bridge, rooftop gardens, hanging vines and a clear vertical garden corridor from foreground parks to the distance. Torn paper layers and cut edges throughout, metallic interfaces kept secondary. No text, logo or watermark."
       },
-      "canonical_url": "https://alosem.com/i/paper-city-living-canopy-55f0fc0d",
+      "canonical_url": "https://pixexid.com/i/paper-city-living-canopy-55f0fc0d",
       "image_urls": {
-        "512": "https://pi.alosem.com/paper-city-living-canopy-55f0fc0d/2ca5747c64dc/512.webp",
-        "1024": "https://pi.alosem.com/paper-city-living-canopy-55f0fc0d/8dc5afa24fbe/1024.webp",
-        "original": "https://pi.alosem.com/paper-city-living-canopy-55f0fc0d/88b09434432a/original.jpg"
+        "512": "https://media.pixexid.com/paper-city-living-canopy-55f0fc0d/2ca5747c64dc/512.webp",
+        "1024": "https://media.pixexid.com/paper-city-living-canopy-55f0fc0d/8dc5afa24fbe/1024.webp",
+        "original": "https://media.pixexid.com/paper-city-living-canopy-55f0fc0d/88b09434432a/original.jpg"
       },
       "created_at": "2026-09-14T06:24:02.000Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "e9f8e7a1-86e6-5518-afc2-85dd96cb6507",
       "slug": "mapmaker-unfolding-a-city-e9f8e7a1",
       "title": "Mapmaker Unfolding a City",
@@ -920,17 +920,17 @@
         "verdict": "pass",
         "notes": "Both hands verified at 1024px: the left hand shows four curled fingers over the map edge with the thumb occluded, the right hand shows a thumb and three to four fingers pinching the corner - painterly but anatomically plausible, no extra or fused digits. The map's torn upper edge continues into a sparse skyline attached to the paper rather than floating. No words, labels or typography on the map."
       },
-      "canonical_url": "https://alosem.com/i/mapmaker-unfolding-a-city-e9f8e7a1",
+      "canonical_url": "https://pixexid.com/i/mapmaker-unfolding-a-city-e9f8e7a1",
       "image_urls": {
-        "512": "https://pi.alosem.com/mapmaker-unfolding-a-city-e9f8e7a1/edb30a9d08d6/512.webp",
-        "1024": "https://pi.alosem.com/mapmaker-unfolding-a-city-e9f8e7a1/0877d625dde1/1024.webp",
-        "original": "https://pi.alosem.com/mapmaker-unfolding-a-city-e9f8e7a1/909c4ea136d3/original.jpg"
+        "512": "https://media.pixexid.com/mapmaker-unfolding-a-city-e9f8e7a1/edb30a9d08d6/512.webp",
+        "1024": "https://media.pixexid.com/mapmaker-unfolding-a-city-e9f8e7a1/0877d625dde1/1024.webp",
+        "original": "https://media.pixexid.com/mapmaker-unfolding-a-city-e9f8e7a1/909c4ea136d3/original.jpg"
       },
       "created_at": "2026-09-12T05:16:06.000Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "5e0f485f-10b1-5d4f-a723-9acbd4529209",
       "slug": "silk-thread-river-5e0f485f",
       "title": "Silk Thread River",
@@ -975,17 +975,17 @@
         "verdict": "pass",
         "notes": "Thread continuity verified: one vermilion thread runs unbroken from the needle, down through the hoop, into the winding river and out onto the cloth below. Exactly three tiny indigo boats resting on the river surface. Hoop holds pale reeds and distant blue hills; robe is dense floral stitch work. No words, letters or typography anywhere."
       },
-      "canonical_url": "https://alosem.com/i/silk-thread-river-5e0f485f",
+      "canonical_url": "https://pixexid.com/i/silk-thread-river-5e0f485f",
       "image_urls": {
-        "512": "https://pi.alosem.com/silk-thread-river-5e0f485f/273eca01eda8/512.webp",
-        "1024": "https://pi.alosem.com/silk-thread-river-5e0f485f/eef6ceec20d7/1024.webp",
-        "original": "https://pi.alosem.com/silk-thread-river-5e0f485f/eacd2340ee72/original.jpg"
+        "512": "https://media.pixexid.com/silk-thread-river-5e0f485f/273eca01eda8/512.webp",
+        "1024": "https://media.pixexid.com/silk-thread-river-5e0f485f/eef6ceec20d7/1024.webp",
+        "original": "https://media.pixexid.com/silk-thread-river-5e0f485f/eacd2340ee72/original.jpg"
       },
       "created_at": "2026-09-12T05:15:16.000Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "db4a7a9e-d5ac-5957-a950-1325f8539b27",
       "slug": "paper-light-box-village-at-dusk-db4a7a9e",
       "title": "Paper Light-Box Village at Dusk",
@@ -1029,17 +1029,17 @@
         "verdict": "pass",
         "notes": "Framed papercraft light-box with receding cream ridge layers, carved window openings, village gate, bridges, a paper river to the front layer, one round lantern strung between two paper pines, and the sitting-cat silhouette in a single lit window. No people, no writing. Ridge layers overlap too closely to count six with certainty, as the original reviewer also noted."
       },
-      "canonical_url": "https://alosem.com/i/paper-light-box-village-at-dusk-db4a7a9e",
+      "canonical_url": "https://pixexid.com/i/paper-light-box-village-at-dusk-db4a7a9e",
       "image_urls": {
-        "512": "https://pi.alosem.com/paper-light-box-village-at-dusk-db4a7a9e/5b2ad9fa427d/512.webp",
-        "1024": "https://pi.alosem.com/paper-light-box-village-at-dusk-db4a7a9e/0408bad3bada/1024.webp",
-        "original": "https://pi.alosem.com/paper-light-box-village-at-dusk-db4a7a9e/f61233c42397/original.jpg"
+        "512": "https://media.pixexid.com/paper-light-box-village-at-dusk-db4a7a9e/5b2ad9fa427d/512.webp",
+        "1024": "https://media.pixexid.com/paper-light-box-village-at-dusk-db4a7a9e/0408bad3bada/1024.webp",
+        "original": "https://media.pixexid.com/paper-light-box-village-at-dusk-db4a7a9e/f61233c42397/original.jpg"
       },
       "created_at": "2026-09-12T05:03:57.000Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "fca9cc5e-2cbd-5f11-ac2d-73f0bde47b67",
       "slug": "red-crosshatch-portrait-of-an-old-astronomer-fca9cc5e",
       "title": "Red Crosshatch Portrait of an Old Astronomer",
@@ -1082,17 +1082,17 @@
         "verdict": "pass",
         "notes": "Checked the ruler border at high magnification for stray glyphs: pure tick marks and corner star symbols, zero numerals or lettering, matching 'no writing or lettering anywhere'. Both eyes are coherent under the hatching. Spectacles sit pushed up on the forehead exactly as prompted, so the unusual first read is requested, not a defect. Gold star accent near the collar present."
       },
-      "canonical_url": "https://alosem.com/i/red-crosshatch-portrait-of-an-old-astronomer-fca9cc5e",
+      "canonical_url": "https://pixexid.com/i/red-crosshatch-portrait-of-an-old-astronomer-fca9cc5e",
       "image_urls": {
-        "512": "https://pi.alosem.com/red-crosshatch-portrait-of-an-old-astronomer-fca9cc5e/e86631c8cc55/512.webp",
-        "1024": "https://pi.alosem.com/red-crosshatch-portrait-of-an-old-astronomer-fca9cc5e/992c1bc8e5bf/1024.webp",
-        "original": "https://pi.alosem.com/red-crosshatch-portrait-of-an-old-astronomer-fca9cc5e/5e77c1cb2bac/original.jpg"
+        "512": "https://media.pixexid.com/red-crosshatch-portrait-of-an-old-astronomer-fca9cc5e/e86631c8cc55/512.webp",
+        "1024": "https://media.pixexid.com/red-crosshatch-portrait-of-an-old-astronomer-fca9cc5e/992c1bc8e5bf/1024.webp",
+        "original": "https://media.pixexid.com/red-crosshatch-portrait-of-an-old-astronomer-fca9cc5e/5e77c1cb2bac/original.jpg"
       },
       "created_at": "2026-09-11T19:39:30.000Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "a960b5d6-b32b-5406-a8c8-ae0ad6b84916",
       "slug": "torn-paper-swimmer-mid-dive-a960b5d6",
       "title": "Torn Paper Swimmer Mid Dive",
@@ -1136,17 +1136,17 @@
         "verdict": "pass",
         "notes": "Single swimmer, cap, goggles, arched diagonal from fingertips upper-left to toes lower-right, blue paper ribbon, confetti splash flecks, teal torn water. NOTE - the original review note claims 'no frame clipping', but the starting block is cropped by the right edge; no prompt clause forbids it, so this is a note, not a defect. The prompt's own 'hands just breaking the water surface' is unsatisfiable given its stated diagonal, and the model's reading is reasonable."
       },
-      "canonical_url": "https://alosem.com/i/torn-paper-swimmer-mid-dive-a960b5d6",
+      "canonical_url": "https://pixexid.com/i/torn-paper-swimmer-mid-dive-a960b5d6",
       "image_urls": {
-        "512": "https://pi.alosem.com/torn-paper-swimmer-mid-dive-a960b5d6/693d7a2905ae/512.webp",
-        "1024": "https://pi.alosem.com/torn-paper-swimmer-mid-dive-a960b5d6/802d3c463c59/1024.webp",
-        "original": "https://pi.alosem.com/torn-paper-swimmer-mid-dive-a960b5d6/307e6892cbfe/original.jpg"
+        "512": "https://media.pixexid.com/torn-paper-swimmer-mid-dive-a960b5d6/693d7a2905ae/512.webp",
+        "1024": "https://media.pixexid.com/torn-paper-swimmer-mid-dive-a960b5d6/802d3c463c59/1024.webp",
+        "original": "https://media.pixexid.com/torn-paper-swimmer-mid-dive-a960b5d6/307e6892cbfe/original.jpg"
       },
       "created_at": "2026-09-11T19:03:55.000Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "8c8d1e4b-a24e-55a7-a6e7-0fd8ff62cc32",
       "slug": "felted-fox-asleep-on-a-wool-cloud-8c8d1e4b",
       "title": "Felted Fox Asleep on a Wool Cloud",
@@ -1191,17 +1191,17 @@
         "verdict": "pass",
         "notes": "Matches the prompt item by item: curled fox with cream chest and tail tip over its nose, palm-sized wool cloud, one golden crescent with exactly two felt stars - one dusk blue, one moss green - spaced well apart, a single loose fibre catching light on the fox's back, soft light from the upper left, faint shadow beneath the cloud. Hanging threads leaving the top edge are consistent with the prompted nursery-mobile framing."
       },
-      "canonical_url": "https://alosem.com/i/felted-fox-asleep-on-a-wool-cloud-8c8d1e4b",
+      "canonical_url": "https://pixexid.com/i/felted-fox-asleep-on-a-wool-cloud-8c8d1e4b",
       "image_urls": {
-        "512": "https://pi.alosem.com/felted-fox-asleep-on-a-wool-cloud-8c8d1e4b/23b8ab96c158/512.webp",
-        "1024": "https://pi.alosem.com/felted-fox-asleep-on-a-wool-cloud-8c8d1e4b/4b0350f9582f/1024.webp",
-        "original": "https://pi.alosem.com/felted-fox-asleep-on-a-wool-cloud-8c8d1e4b/50c8d3ee5bef/original.jpg"
+        "512": "https://media.pixexid.com/felted-fox-asleep-on-a-wool-cloud-8c8d1e4b/23b8ab96c158/512.webp",
+        "1024": "https://media.pixexid.com/felted-fox-asleep-on-a-wool-cloud-8c8d1e4b/4b0350f9582f/1024.webp",
+        "original": "https://media.pixexid.com/felted-fox-asleep-on-a-wool-cloud-8c8d1e4b/50c8d3ee5bef/original.jpg"
       },
       "created_at": "2026-09-11T05:46:10.000Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "c9d145b5-0873-507f-a148-c53b0107eb8a",
       "slug": "analyst-facing-a-mountain-of-postponed-letters-c9d145b5",
       "title": "Analyst Facing a Mountain of Postponed Letters",
@@ -1245,17 +1245,17 @@
         "verdict": "pass",
         "notes": "Exactly two islands of meaning plus one crow on the bare floor between them, as prompted. Analyst in a gray sweater under a single warm lamp cone, pen over unsent letters; envelope drifts at the left with edges catching the lamp spill; the teal void is perfectly smooth. The envelope mound meeting the left edge is not prohibited by the prompt. No readable stray text."
       },
-      "canonical_url": "https://alosem.com/i/analyst-facing-a-mountain-of-postponed-letters-c9d145b5",
+      "canonical_url": "https://pixexid.com/i/analyst-facing-a-mountain-of-postponed-letters-c9d145b5",
       "image_urls": {
-        "512": "https://pi.alosem.com/analyst-facing-a-mountain-of-postponed-letters-c9d145b5/b0aa288935eb/512.webp",
-        "1024": "https://pi.alosem.com/analyst-facing-a-mountain-of-postponed-letters-c9d145b5/f79076dd46ec/1024.webp",
-        "original": "https://pi.alosem.com/analyst-facing-a-mountain-of-postponed-letters-c9d145b5/012d09fc1c8c/original.jpg"
+        "512": "https://media.pixexid.com/analyst-facing-a-mountain-of-postponed-letters-c9d145b5/b0aa288935eb/512.webp",
+        "1024": "https://media.pixexid.com/analyst-facing-a-mountain-of-postponed-letters-c9d145b5/f79076dd46ec/1024.webp",
+        "original": "https://media.pixexid.com/analyst-facing-a-mountain-of-postponed-letters-c9d145b5/012d09fc1c8c/original.jpg"
       },
       "created_at": "2026-09-11T04:12:21.304Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "7cabb9a6-c419-5660-a651-31283ab8cb15",
       "slug": "rust-seam-splitting-a-gray-painted-face-7cabb9a6",
       "title": "Rust Seam Splitting a Gray Painted Face",
@@ -1299,17 +1299,17 @@
         "verdict": "pass",
         "notes": "Face anatomically coherent beneath the cracked gray impasto with both eyes open and gazing past the viewer. One continuous rust seam runs crown to chest without breaking. Rope braids hang at both frame edges, ochre brushstroke backdrop behind. Reads as material, not wound. No text, watermark or signature."
       },
-      "canonical_url": "https://alosem.com/i/rust-seam-splitting-a-gray-painted-face-7cabb9a6",
+      "canonical_url": "https://pixexid.com/i/rust-seam-splitting-a-gray-painted-face-7cabb9a6",
       "image_urls": {
-        "512": "https://pi.alosem.com/rust-seam-splitting-a-gray-painted-face-7cabb9a6/99e270cbe86d/512.webp",
-        "1024": "https://pi.alosem.com/rust-seam-splitting-a-gray-painted-face-7cabb9a6/cbad08d931af/1024.webp",
-        "original": "https://pi.alosem.com/rust-seam-splitting-a-gray-painted-face-7cabb9a6/52fecc77b966/original.jpg"
+        "512": "https://media.pixexid.com/rust-seam-splitting-a-gray-painted-face-7cabb9a6/99e270cbe86d/512.webp",
+        "1024": "https://media.pixexid.com/rust-seam-splitting-a-gray-painted-face-7cabb9a6/cbad08d931af/1024.webp",
+        "original": "https://media.pixexid.com/rust-seam-splitting-a-gray-painted-face-7cabb9a6/52fecc77b966/original.jpg"
       },
       "created_at": "2026-09-11T03:41:51.553Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "7fff6a56-3df8-5971-a617-6938a7552288",
       "slug": "copper-heron-machine-hunting-in-flooded-terraces-7fff6a56",
       "title": "Copper Heron Machine Hunting in Flooded Terraces",
@@ -1353,17 +1353,17 @@
         "verdict": "pass",
         "notes": "Verified at 1024px: exactly two separated jointed strut-legs, both planted with spreading rings - no third strut. Folded narrow sensor wings, long neck with sensor crest swept low over the water, twin ribbon antennae trailing behind the crown, broken reflection, egret footprints on the mud ridge. Critically, the prompt forbids 'words, labels or legend numbers anywhere' and I found none; rivet and circuit marks are decorative only."
       },
-      "canonical_url": "https://alosem.com/i/copper-heron-machine-hunting-in-flooded-terraces-7fff6a56",
+      "canonical_url": "https://pixexid.com/i/copper-heron-machine-hunting-in-flooded-terraces-7fff6a56",
       "image_urls": {
-        "512": "https://pi.alosem.com/copper-heron-machine-hunting-in-flooded-terraces-7fff6a56/a77aa5332dff/512.webp",
-        "1024": "https://pi.alosem.com/copper-heron-machine-hunting-in-flooded-terraces-7fff6a56/52f0660add55/1024.webp",
-        "original": "https://pi.alosem.com/copper-heron-machine-hunting-in-flooded-terraces-7fff6a56/27f3f2787f34/original.jpg"
+        "512": "https://media.pixexid.com/copper-heron-machine-hunting-in-flooded-terraces-7fff6a56/a77aa5332dff/512.webp",
+        "1024": "https://media.pixexid.com/copper-heron-machine-hunting-in-flooded-terraces-7fff6a56/52f0660add55/1024.webp",
+        "original": "https://media.pixexid.com/copper-heron-machine-hunting-in-flooded-terraces-7fff6a56/27f3f2787f34/original.jpg"
       },
       "created_at": "2026-09-10T23:36:46.434Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "e7df7e9a-a29f-5447-a829-e886c8db6123",
       "slug": "goldfish-swims-beneath-a-broken-moon-reflection-e7df7e9a",
       "title": "Goldfish Swims Beneath a Broken Moon Reflection",
@@ -1404,17 +1404,17 @@
         "verdict": "pass",
         "notes": "One vermilion goldfish, entirely submerged, travelling toward the upper left with the rounded back and top of the head visible from directly overhead, two sideways pectoral fins and one flowing split tail to the lower right. Pale ripple bands pass across the back and tail, correctly placing the surface in front of the fish; one short ivory reflection strip overlaps the tail. Whole fish inside the frame with unlettered cream margins. No second fish."
       },
-      "canonical_url": "https://alosem.com/i/goldfish-swims-beneath-a-broken-moon-reflection-e7df7e9a",
+      "canonical_url": "https://pixexid.com/i/goldfish-swims-beneath-a-broken-moon-reflection-e7df7e9a",
       "image_urls": {
-        "512": "https://pi.alosem.com/goldfish-swims-beneath-a-broken-moon-reflection-e7df7e9a/5b9051ccf64b/512.webp",
-        "1024": "https://pi.alosem.com/goldfish-swims-beneath-a-broken-moon-reflection-e7df7e9a/c8b99a19aaee/1024.webp",
-        "original": "https://pi.alosem.com/goldfish-swims-beneath-a-broken-moon-reflection-e7df7e9a/1f411643e672/original.jpg"
+        "512": "https://media.pixexid.com/goldfish-swims-beneath-a-broken-moon-reflection-e7df7e9a/5b9051ccf64b/512.webp",
+        "1024": "https://media.pixexid.com/goldfish-swims-beneath-a-broken-moon-reflection-e7df7e9a/c8b99a19aaee/1024.webp",
+        "original": "https://media.pixexid.com/goldfish-swims-beneath-a-broken-moon-reflection-e7df7e9a/1f411643e672/original.jpg"
       },
       "created_at": "2026-09-10T17:01:06.576Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "0a39debe-9019-5d89-af6f-579707965add",
       "slug": "ancient-sword-bridges-a-canyon-of-pages-0a39debe",
       "title": "Ancient Sword Bridges a Canyon of Pages",
@@ -1456,17 +1456,17 @@
         "verdict": "pass",
         "notes": "Both support contacts are visible as required: the grip and gold crossguard rest on the lower-left page bank and the blade near its point rests on the upper-right bank. Continuous straight blade with a fuller catching one line of warm light; carved terraced page cliffs, stair, gold gutter ribbon, leather cover and tabletop all coherent. Page surfaces blank, no watermark."
       },
-      "canonical_url": "https://alosem.com/i/ancient-sword-bridges-a-canyon-of-pages-0a39debe",
+      "canonical_url": "https://pixexid.com/i/ancient-sword-bridges-a-canyon-of-pages-0a39debe",
       "image_urls": {
-        "512": "https://pi.alosem.com/ancient-sword-bridges-a-canyon-of-pages-0a39debe/bb1762701509/512.webp",
-        "1024": "https://pi.alosem.com/ancient-sword-bridges-a-canyon-of-pages-0a39debe/925b2a25eeb3/1024.webp",
-        "original": "https://pi.alosem.com/ancient-sword-bridges-a-canyon-of-pages-0a39debe/4be868847667/original.jpg"
+        "512": "https://media.pixexid.com/ancient-sword-bridges-a-canyon-of-pages-0a39debe/bb1762701509/512.webp",
+        "1024": "https://media.pixexid.com/ancient-sword-bridges-a-canyon-of-pages-0a39debe/925b2a25eeb3/1024.webp",
+        "original": "https://media.pixexid.com/ancient-sword-bridges-a-canyon-of-pages-0a39debe/4be868847667/original.jpg"
       },
       "created_at": "2026-09-10T00:10:40.996Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "b3d4a9d3-0922-56f7-a8a6-16e3097a7179",
       "slug": "cream-terminal-that-never-existed-b3d4a9d3",
       "title": "Cream Terminal That Never Existed",
@@ -1510,17 +1510,17 @@
         "verdict": "pass",
         "notes": "The canonical page returned HTTP 200 and its title matched. At 1024px this is a clean three-quarter studio shot of a fictional cream-enamel terminal on warm umber seamless: the CRT carries an abstract aurora gradient with no icons or text, both key banks are legend-free, no watermarks, badges, or markings appear, and a soft reflection grounds the console. Zero defects were found."
       },
-      "canonical_url": "https://alosem.com/i/cream-terminal-that-never-existed-b3d4a9d3",
+      "canonical_url": "https://pixexid.com/i/cream-terminal-that-never-existed-b3d4a9d3",
       "image_urls": {
-        "512": "https://pi.alosem.com/cream-terminal-that-never-existed-b3d4a9d3/7f410a5f7298/512.webp",
-        "1024": "https://pi.alosem.com/cream-terminal-that-never-existed-b3d4a9d3/5639904b82ee/1024.webp",
-        "original": "https://pi.alosem.com/cream-terminal-that-never-existed-b3d4a9d3/05d428cae4cb/original.jpg"
+        "512": "https://media.pixexid.com/cream-terminal-that-never-existed-b3d4a9d3/7f410a5f7298/512.webp",
+        "1024": "https://media.pixexid.com/cream-terminal-that-never-existed-b3d4a9d3/5639904b82ee/1024.webp",
+        "original": "https://media.pixexid.com/cream-terminal-that-never-existed-b3d4a9d3/05d428cae4cb/original.jpg"
       },
       "created_at": "2026-09-11T03:41:51.553Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "1919a777-26b4-51cf-ace2-26b1b9070930",
       "slug": "canal-bridge-screenprint-slice-1919a777",
       "title": "Canal Bridge Screenprint Slice",
@@ -1566,17 +1566,17 @@
         "verdict": "pass",
         "notes": "ALTERNATE rank 1. REAL ALPHA verified at 1024x576: p(0,0)=srgba(0,0,0,0); border max alpha 0-1/255 (stray sub-threshold dust only, not a background). Four inks plus cream paper, coarse halftone, deliberate misregistration, arched brick bridge, moored boat at a post, striped awnings, yellow dot window lights, and stray dots scattering into the transparency exactly as prompted. Best transparent alternate; promotable."
       },
-      "canonical_url": "https://alosem.com/i/canal-bridge-screenprint-slice-1919a777",
+      "canonical_url": "https://pixexid.com/i/canal-bridge-screenprint-slice-1919a777",
       "image_urls": {
-        "512": "https://pi.alosem.com/canal-bridge-screenprint-slice-1919a777/64182b916ec7/512.webp",
-        "1024": "https://pi.alosem.com/canal-bridge-screenprint-slice-1919a777/d95ab394ec83/1024.webp",
-        "original": "https://pi.alosem.com/canal-bridge-screenprint-slice-1919a777/f58260f1ab34/original.webp"
+        "512": "https://media.pixexid.com/canal-bridge-screenprint-slice-1919a777/64182b916ec7/512.webp",
+        "1024": "https://media.pixexid.com/canal-bridge-screenprint-slice-1919a777/d95ab394ec83/1024.webp",
+        "original": "https://media.pixexid.com/canal-bridge-screenprint-slice-1919a777/f58260f1ab34/original.webp"
       },
       "created_at": "2026-09-17T06:08:34.000Z"
     },
     {
       "kind": "campaign-standalone",
-      "origin": "alosem",
+      "origin": "pixexid",
       "id": "65b8e726-6745-5c72-a1b2-3ecbfce1b0ab",
       "slug": "girl-holding-a-fallen-moon-in-a-tidal-pool-65b8e726",
       "title": "Girl Holding a Fallen Moon in a Tidal Pool",
@@ -1620,11 +1620,11 @@
         "verdict": "pass",
         "notes": "ALTERNATE rank 8, illustration_backgrounds. Photoreal night beach: girl crouched with both hands cupping a glowing moon sphere half-submerged in a tidal pool, lighthouse beam, crabs, feather. Both hands and both arms read correctly, face coherent, crouch pose plausible, no stray limb or text. Strongest like-for-like replacement for a photoreal case. Promotable (first choice)."
       },
-      "canonical_url": "https://alosem.com/i/girl-holding-a-fallen-moon-in-a-tidal-pool-65b8e726",
+      "canonical_url": "https://pixexid.com/i/girl-holding-a-fallen-moon-in-a-tidal-pool-65b8e726",
       "image_urls": {
-        "512": "https://pi.alosem.com/girl-holding-a-fallen-moon-in-a-tidal-pool-65b8e726/810122395e5a/512.webp",
-        "1024": "https://pi.alosem.com/girl-holding-a-fallen-moon-in-a-tidal-pool-65b8e726/fe17c112f264/1024.webp",
-        "original": "https://pi.alosem.com/girl-holding-a-fallen-moon-in-a-tidal-pool-65b8e726/98d7ba5404e2/original.jpg"
+        "512": "https://media.pixexid.com/girl-holding-a-fallen-moon-in-a-tidal-pool-65b8e726/810122395e5a/512.webp",
+        "1024": "https://media.pixexid.com/girl-holding-a-fallen-moon-in-a-tidal-pool-65b8e726/fe17c112f264/1024.webp",
+        "original": "https://media.pixexid.com/girl-holding-a-fallen-moon-in-a-tidal-pool-65b8e726/98d7ba5404e2/original.jpg"
       },
       "created_at": "2026-09-11T04:12:21.304Z"
     },
@@ -1730,7 +1730,7 @@
       "review": {
         "checked": "2026-09-17",
         "verdict": "pass",
-        "notes": "Resolved after two repair passes. The first two generations were flagged for mismatched footwear; the selected third generation instead puts the subject in matching floor-length tailored trousers whose cuffs cover both feet, so the footwear defect class is structurally eliminated rather than re-attempted, with only identical flat dark toe/sole slivers below each hem. Footwear was never an identity attribute here — the reference turnaround shows this subject barefoot in all five views. Identity holds against the same anchor as the rain-studio case (iris R−B of +70 and +82, brown; same long oval face, broad cheekbones, firm tapered jaw, light stubble, and high swept-wavy hair mass). Note: this is a fresh full render, not the earlier frame, so the market sits to the left, the pavement is wet and reflective, and the background crowd differs. Both hands are clean, background shoppers are indistinct, and no readable text, logo, or watermark appears. Minor note: the trouser hems read a little wider and more flared than the prompt's 'straight tailored cut'."
+        "notes": "Resolved after two repair passes. The first two generations were flagged for mismatched footwear; the selected third generation instead puts the subject in matching floor-length tailored trousers whose cuffs cover both feet, so the footwear defect class is structurally eliminated rather than re-attempted, with only identical flat dark toe/sole slivers below each hem. Footwear was never an identity attribute here - the reference turnaround shows this subject barefoot in all five views. Identity holds against the same anchor as the rain-studio case (iris R−B of +70 and +82, brown; same long oval face, broad cheekbones, firm tapered jaw, light stubble, and high swept-wavy hair mass). Note: this is a fresh full render, not the earlier frame, so the market sits to the left, the pavement is wet and reflective, and the background crowd differs. Both hands are clean, background shoppers are indistinct, and no readable text, logo, or watermark appears. Minor note: the trouser hems read a little wider and more flared than the prompt's 'straight tailored cut'."
       },
       "references": [
         {
@@ -1853,7 +1853,7 @@
       "review": {
         "checked": "2026-09-17",
         "verdict": "pass",
-        "notes": "Verification confirmed a narrow long heart-oval face clearly longer than wide, high cheekbones, a small tapered chin, a tall loose copper-red bun with substantial vertical mass and fine wispy tendrils at both temples, and a slim long-limbed athletic build. Eyes are distinctly green-hazel, matching the reference's green-iris panel and satisfying the prompt's 'Avoid: brown eyes'. Freckles are dense across forehead, nose, and cheeks and also on the backs of the hands and forearms, genuinely meeting the 'no missing freckles' constraint rather than approximating it. The watering can is fully coherent — body, rim, handle arc bracketed into the body, spout, and a perforated rose emitting real water — and the pot-steadying hand is cleanly articulated. Note, not a defect: the sprinkle lands on the adjacent seedling tray rather than into the pot her other hand steadies."
+        "notes": "Verification confirmed a narrow long heart-oval face clearly longer than wide, high cheekbones, a small tapered chin, a tall loose copper-red bun with substantial vertical mass and fine wispy tendrils at both temples, and a slim long-limbed athletic build. Eyes are distinctly green-hazel, matching the reference's green-iris panel and satisfying the prompt's 'Avoid: brown eyes'. Freckles are dense across forehead, nose, and cheeks and also on the backs of the hands and forearms, genuinely meeting the 'no missing freckles' constraint rather than approximating it. The watering can is fully coherent - body, rim, handle arc bracketed into the body, spout, and a perforated rose emitting real water - and the pot-steadying hand is cleanly articulated. Note, not a defect: the sprinkle lands on the adjacent seedling tray rather than into the pot her other hand steadies."
       },
       "references": [
         {
@@ -1976,7 +1976,7 @@
       "review": {
         "checked": "2026-09-17",
         "verdict": "pass",
-        "notes": "Identity verified against the stated proportions rather than by impression: the head including its black contour measures W/H ≈ 1.07, satisfying 'near-circular horizontal oval, slightly wider than tall', with the ivory face inset low inside the hair mass at roughly two-thirds of total head width. The heavy golden fringe begins near top-centre and sweeps diagonally across the forehead to the lower-right cheek in the correct direction — not reversed, not centred curtain bangs — with the shorter pointed lock on the left and two rounded lower side lobes. Medium proof passes: raised relief with real thickness, glaze pooling along the black contours, specular gloss, subtle kiln mottling, and a physical cast shadow establish fired ceramic rather than a flat print. One complete head, no body, neck, ears, or nose, generous wall margin on all sides, no crop, text, or watermark."
+        "notes": "Identity verified against the stated proportions rather than by impression: the head including its black contour measures W/H ≈ 1.07, satisfying 'near-circular horizontal oval, slightly wider than tall', with the ivory face inset low inside the hair mass at roughly two-thirds of total head width. The heavy golden fringe begins near top-centre and sweeps diagonally across the forehead to the lower-right cheek in the correct direction - not reversed, not centred curtain bangs - with the shorter pointed lock on the left and two rounded lower side lobes. Medium proof passes: raised relief with real thickness, glaze pooling along the black contours, specular gloss, subtle kiln mottling, and a physical cast shadow establish fired ceramic rather than a flat print. One complete head, no body, neck, ears, or nose, generous wall margin on all sides, no crop, text, or watermark."
       },
       "references": [
         {
@@ -2046,7 +2046,7 @@
       "review": {
         "checked": "2026-09-17",
         "verdict": "pass",
-        "notes": "Verification confirmed four genuinely distinct materials rather than four colourways: needle-felted wool with matted fibre nap and stitched features, glazed ceramic with pooled gloss in the contour channels, carved painted wood with directional grain and chiselled tool facets, and translucent cast resin with internal depth and suspended pigment flecks. The same head appears in all four cells — measured head bounding boxes of 444×414, 426×405, 429×410, and 451×433 give a width spread of 5.9% and a height spread of 6.9%, with every W/H ratio in 1.042–1.072. Grid geometry was measured as an exact 2×2 with a complete outer border — full-width rules at y=6–7, 623–624, and 1246–1247, full-height rules at x=6–7, 626–627, and 1246–1247 — with each head well inside its cell and no boundary overlap. Exactly four heads, no labels, captions, text, or watermark."
+        "notes": "Verification confirmed four genuinely distinct materials rather than four colourways: needle-felted wool with matted fibre nap and stitched features, glazed ceramic with pooled gloss in the contour channels, carved painted wood with directional grain and chiselled tool facets, and translucent cast resin with internal depth and suspended pigment flecks. The same head appears in all four cells - measured head bounding boxes of 444×414, 426×405, 429×410, and 451×433 give a width spread of 5.9% and a height spread of 6.9%, with every W/H ratio in 1.042 to 1.072. Grid geometry was measured as an exact 2×2 with a complete outer border - full-width rules at y=6 to 7, 623 to 624, and 1246 to 1247, full-height rules at x=6 to 7, 626 to 627, and 1246 to 1247 - with each head well inside its cell and no boundary overlap. Exactly four heads, no labels, captions, text, or watermark."
       },
       "references": [
         {

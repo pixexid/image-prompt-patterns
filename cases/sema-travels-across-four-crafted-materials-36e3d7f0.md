@@ -4,7 +4,9 @@ Sema's fixed identity moves across wool, ceramic, carved wood, and translucent r
 
 <p align="center"><img src="../assets/sema-travels-across-four-crafted-materials-36e3d7f0.jpg" alt="Sema's fixed identity moves across wool, ceramic, carved wood, and translucent resin in one comparative study." width="760"></p>
 
-## Exact prompt
+**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+
+## Prompt
 
 Copy this standalone prompt as a starting point. Image generation is nondeterministic, so a rerun will not reproduce identical pixels.
 
@@ -14,14 +16,14 @@ A polished four-cell material study presents the same Sema head in felted wool, 
 
 ## Reference-based run recipe
 
-This case was generated from founder-provided reference sheets rather than from text alone. The sheets are required image inputs to reproduce the run; each is published below and under `assets/references/` so the result can be compared with its references, and the standalone prompt above remains the public copyable prompt.
+This case was generated from reference sheets supplied by the founder rather than from text alone. The sheets are required image inputs to reproduce the run; each is published below and under `assets/references/` so the result can be compared with its references, and the standalone prompt above remains the public copyable prompt.
 
 **Ordered references**
 
-1. `assets/references/sema-directions-sheet.png` — Primary Sema silhouette, angle, bob geometry, hair-sweep, face-inset, line-placement, and palette anchor
+1. `assets/references/sema-directions-sheet.png`: Primary Sema silhouette, angle, bob geometry, hair-sweep, face-inset, line-placement, and palette anchor
    - SHA-256 `e1d800ae146552a6818e7a4f56ed3b63302a387df3295062dcb4cf79e2c2c786`
    - Founder-supplied raster review sheet; upstream model provenance unavailable.
-2. `assets/references/sema-reactions-sheet.png` — Primary Sema eye, lash, mouth, expression-language, and accent anchor
+2. `assets/references/sema-reactions-sheet.png`: Primary Sema eye, lash, mouth, expression-language, and accent anchor
    - SHA-256 `7bac316938369e9fae96a10d4e6b864843280f9ce8ceb580b63c7c3b462ed717`
    - Founder-supplied raster review sheet; upstream model provenance unavailable.
 
@@ -48,7 +50,7 @@ Avoid: taller oval heads, narrow face insets, reversed or centered fringe, reali
 
 | Field | Value |
 | --- | --- |
-| Model family | GPT Image 2.5 |
+| Tested on | GPT Image 2.5 |
 | Generation tool | built-in imagegen |
 | Exact backend | unknown |
 | Mode | reference-based style-transfer |
@@ -59,8 +61,8 @@ Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exa
 
 ## Review notes and limitations
 
-**pass · checked 2026-09-17.** Verification confirmed four genuinely distinct materials rather than four colourways: needle-felted wool with matted fibre nap and stitched features, glazed ceramic with pooled gloss in the contour channels, carved painted wood with directional grain and chiselled tool facets, and translucent cast resin with internal depth and suspended pigment flecks. The same head appears in all four cells — measured head bounding boxes of 444×414, 426×405, 429×410, and 451×433 give a width spread of 5.9% and a height spread of 6.9%, with every W/H ratio in 1.042–1.072. Grid geometry was measured as an exact 2×2 with a complete outer border — full-width rules at y=6–7, 623–624, and 1246–1247, full-height rules at x=6–7, 626–627, and 1246–1247 — with each head well inside its cell and no boundary overlap. Exactly four heads, no labels, captions, text, or watermark.
+**pass · checked 2026-09-17.** Verification confirmed four genuinely distinct materials rather than four colourways: needle-felted wool with matted fibre nap and stitched features, glazed ceramic with pooled gloss in the contour channels, carved painted wood with directional grain and chiselled tool facets, and translucent cast resin with internal depth and suspended pigment flecks. The same head appears in all four cells - measured head bounding boxes of 444×414, 426×405, 429×410, and 451×433 give a width spread of 5.9% and a height spread of 6.9%, with every W/H ratio in 1.042 to 1.072. Grid geometry was measured as an exact 2×2 with a complete outer border - full-width rules at y=6 to 7, 623 to 624, and 1246 to 1247, full-height rules at x=6 to 7, 626 to 627, and 1246 to 1247 - with each head well inside its cell and no boundary overlap. Exactly four heads, no labels, captions, text, or watermark.
 
-This team-generated campaign case was produced directly by the Alosem team with built-in imagegen from founder-provided identity sheets; it is neither externally published nor created through the Alosem creative product, so it is labeled **Created for Alosem**.
+This team-generated campaign case was produced directly by the pixexid team with built-in imagegen from identity sheets supplied by the founder; it is neither externally published nor made in the pixexid product, so it is labeled **Created for pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). The preview image is hosted in this repository under the same licence.

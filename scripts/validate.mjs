@@ -41,7 +41,7 @@ function checkUrl(value, host, item, label) {
 export function validateCase(item) {
   if (item.kind === "campaign-team") return validateTeamCase(item);
   assert(item.kind === "campaign-standalone", "Invalid case discriminator: " + item.slug);
-  assert(item.origin === "alosem", "Invalid origin: " + item.slug);
+  assert(item.origin === "pixexid", "Invalid origin: " + item.slug);
   assert(uuid.test(item.id), "Invalid id: " + item.slug);
   assert(item.slug && item.title && item.description, "Missing identity text: " + item.slug);
   assert(item.model === "GPT Image 2.5", "Invalid model: " + item.slug);
@@ -79,10 +79,10 @@ export function validateCase(item) {
       item.review.notes?.trim(),
     "Invalid review: " + item.slug,
   );
-  const canonical = checkUrl(item.canonical_url, "alosem.com", item, "canonical URL");
+  const canonical = checkUrl(item.canonical_url, "pixexid.com", item, "canonical URL");
   assert(canonical.pathname === "/i/" + item.slug, "Canonical path mismatch: " + item.slug);
   for (const key of ["512", "1024", "original"]) {
-    const image = checkUrl(item.image_urls?.[key], "pi.alosem.com", item, key + " image");
+    const image = checkUrl(item.image_urls?.[key], "media.pixexid.com", item, key + " image");
     assert(image.pathname.includes("/" + item.slug + "/"), "Image slug mismatch: " + item.slug);
   }
   assert(!Number.isNaN(Date.parse(item.created_at)), "Invalid creation date: " + item.slug);
@@ -166,7 +166,7 @@ export function validateTeamCase(item) {
   assert(!Number.isNaN(Date.parse(item.created_at)), "Invalid creation date: " + item.slug);
 }
 
-assert(schema.$id.startsWith("https://alosem.com/"), "Schema id is not Alosem-owned");
+assert(schema.$id.startsWith("https://pixexid.com/"), "Schema id is not pixexid-owned");
 assert(schema.properties.schema_version.const === 3, "Schema is not version 3");
 assert(
   schema.$defs.campaignCase.properties.kind.const === "campaign-standalone" &&
@@ -201,9 +201,9 @@ assert(
   "README category counts do not match catalogue",
 );
 assert(
-  readme.startsWith("# GPT Image 2.5 Prompts & Examples — by Alosem") &&
+  readme.startsWith("# Image prompt patterns") &&
     readme.includes("Independent community resource. Not affiliated with or endorsed by OpenAI."),
-  "README launch positioning missing",
+  "README positioning missing",
 );
 
 const expectedPages = new Set(catalog.cases.map((item) => item.slug + ".md"));
@@ -225,7 +225,7 @@ for (const item of catalog.cases) {
         page.includes(item.exact_prompt) &&
         page.includes(item.execution_prompt) &&
         page.includes(item.review.notes) &&
-        page.includes("Created for Alosem") &&
+        page.includes("Created for pixexid") &&
         item.references.every((reference) => page.includes(reference.sha256)),
       "Incomplete team case page: " + item.slug,
     );
@@ -249,14 +249,34 @@ for (const item of catalog.cases) {
     assert(
       page.includes(item.image_urls["1024"]) &&
         page.includes(item.exact_prompt) &&
-        page.includes("[Open in Alosem](" + item.canonical_url + ")") &&
+        page.includes("[Open on pixexid](" + item.canonical_url + ")") &&
+        page.includes("**Tested on:** GPT Image 2.5") &&
         page.includes(item.review.notes),
       "Incomplete case page: " + item.slug,
     );
   }
 }
 
-const brandPattern = new RegExp(["pix", "exid"].join(""), "i");
+const prompts = new Map(
+  catalog.cases.map((item) => [item.slug, [item.exact_prompt, item.execution_prompt ?? ""].join("\n").toLowerCase()]),
+);
+const allPrompts = [...prompts.values()].join("\n");
+const docs = ["README.md"];
+for (const dir of ["patterns", "guides"])
+  for (const name of await readdir(join(root, dir))) docs.push(dir + "/" + name);
+for (const doc of docs) {
+  const text = await readFile(join(root, doc), "utf8");
+  const prose = text.replace(/```[\s\S]*?```/g, "").replace(/<[^>]+>/g, "");
+  for (const [, quote, slug] of prose.matchAll(/"([^"\n]+)" \(\[[^\]]+\]\(\.\.\/cases\/([a-z0-9-]+)\.md\)\)/g))
+    assert(prompts.get(slug)?.includes(quote.toLowerCase()), "Quote not in " + slug + " prompt: " + quote);
+  if (doc !== "README.md")
+    for (const [, quote] of prose.matchAll(/"([^"\n]+)"/g))
+      assert(allPrompts.includes(quote.toLowerCase()), "Quote not in any prompt: " + doc + ": " + quote);
+  for (const [, target] of text.matchAll(/(?:\]\(|href="|src="|\bsrc=")(?!https?:|#|mailto:)([^)"#\s]+)/g))
+    await access(join(root, dirname(doc), target));
+}
+
+const brandPattern = new RegExp(["alo", "sem"].join(""), "i");
 const repoFiles = execFileSync(
   "git",
   ["ls-files", "--cached", "--others", "--exclude-standard", "-z"],
@@ -292,9 +312,12 @@ if (process.argv.includes("--links")) {
   for (let offset = 0; offset < links.length; offset += 10) {
     await Promise.all(
       links.slice(offset, offset + 10).map(async (url) => {
-        const response = await fetch(url, { signal: AbortSignal.timeout(20_000) });
+        const response = await fetch(url, {
+          headers: { referer: "https://pixexid.com/" },
+          signal: AbortSignal.timeout(20_000),
+        });
         assert(response.ok, "Broken link " + response.status + ": " + url);
-        if (new URL(url).hostname === "pi.alosem.com")
+        if (new URL(url).hostname === "media.pixexid.com")
           assert(
             response.headers.get("content-type")?.startsWith("image/"),
             "Non-image asset: " + url,

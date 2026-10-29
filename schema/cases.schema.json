@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://alosem.com/gpt-image-2-5/schema/cases.schema.json",
-  "title": "GPT Image 2.5 Prompts & Examples — by Alosem",
+  "$id": "https://pixexid.com/image-prompt-patterns/schema/cases.schema.json",
+  "title": "Image prompt patterns catalogue",
   "type": "object",
   "required": ["schema_version", "cases"],
   "additionalProperties": false,
@@ -66,7 +66,7 @@
       "additionalProperties": false,
       "properties": {
         "kind": { "const": "campaign-standalone" },
-        "origin": { "const": "alosem" },
+        "origin": { "const": "pixexid" },
         "id": { "type": "string", "format": "uuid" },
         "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
         "title": { "type": "string", "minLength": 1 },

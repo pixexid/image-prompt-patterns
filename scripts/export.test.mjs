@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { caseMarkdown, fetchCase, teamCase } from "./export.mjs";
+import { caseMarkdown, csvExport, fetchCase, teamCase } from "./export.mjs";
 
 const slug = "fixture-case-11111111";
 const source = {
@@ -32,10 +32,10 @@ function record() {
     aspect: "1:1",
     hasTransparency: true,
     createdAt: "2026-09-17T00:00:00.000Z",
-    imageUrl: "https://pi.alosem.com/" + slug + "/abc/original.webp",
+    imageUrl: "https://media.pixexid.com/" + slug + "/abc/original.webp",
     responsiveSources: [
-      { width: 512, url: "https://pi.alosem.com/" + slug + "/abc/512.webp" },
-      { width: 1024, url: "https://pi.alosem.com/" + slug + "/abc/1024.webp" },
+      { width: 512, url: "https://media.pixexid.com/" + slug + "/abc/512.webp" },
+      { width: 1024, url: "https://media.pixexid.com/" + slug + "/abc/1024.webp" },
     ],
   };
 }
@@ -46,17 +46,19 @@ const stub = (mutate = () => {}) => async () => {
   return Response.json(value);
 };
 
-test("projects one reviewed Alosem source into a campaign standalone case", async () => {
+test("projects one reviewed pixexid source into a campaign standalone case", async () => {
   const item = await fetchCase(source, stub());
   assert.equal(item.kind, "campaign-standalone");
-  assert.equal(item.origin, "alosem");
+  assert.equal(item.origin, "pixexid");
   assert.equal(item.category, "transparent_assets");
   assert.equal(item.hasTransparency, true);
   assert.equal(item.image_urls["1024"], record().responsiveSources[1].url);
   assert.equal(item.provenance.exactBackend, "unknown");
   const page = caseMarkdown(item);
-  assert.match(page, /## Exact prompt/);
-  assert.match(page, /Open in Alosem/);
+  assert.match(page, /## Prompt/);
+  assert.match(page, /Open on pixexid/);
+  assert.match(page, /\*\*Tested on:\*\* GPT Image 2\.5/);
+  assert.ok(page.includes(item.exact_prompt));
 });
 
 test("rejects unsupported model claims and asset hosts", async (t) => {
@@ -79,7 +81,7 @@ test("rejects unsupported model claims and asset hosts", async (t) => {
           value.responsiveSources[0].url = "https://example.com/512.webp";
         }),
       ),
-      /Invalid Alosem 512 image URL/,
+      /Invalid pixexid 512 image URL/,
     );
   });
 });
@@ -142,7 +144,16 @@ test("projects a team source into a reference-based case", () => {
   assert.equal(item.hasTransparency, false);
   const page = caseMarkdown(item);
   assert.match(page, /## Reference-based run recipe/);
-  assert.match(page, /Created for Alosem/);
+  assert.match(page, /Created for pixexid/);
   assert.match(page, /\.\.\/assets\/team-fixture-case-11111111\.jpg/);
   assert.match(page, /Use case: identity-preserve/);
+});
+
+test("csv export quotes prompts with commas, quotes and newlines", async () => {
+  const item = await fetchCase(source, stub((value) => {
+    value.prompt = value.exactPrompt = 'A "quoted", two-line\nprompt.';
+  }));
+  const rows = csvExport([item]).trimEnd().split("\n");
+  assert.equal(rows[0].split(",").length, 9);
+  assert.ok(csvExport([item]).includes('"A ""quoted"", two-line\nprompt."'));
 });

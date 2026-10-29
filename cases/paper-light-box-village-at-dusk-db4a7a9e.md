@@ -2,13 +2,15 @@
 
 A backlit carved-paper diorama of a mountain village at dusk with glowing windows, a paper river and a cat in one lit window.
 
-<p align="center"><a href="https://alosem.com/i/paper-light-box-village-at-dusk-db4a7a9e"><img src="https://pi.alosem.com/paper-light-box-village-at-dusk-db4a7a9e/0408bad3bada/1024.webp" alt="A backlit carved-paper diorama of a mountain village at dusk with glowing windows, a paper river and a cat in one lit window." width="760"></a></p>
+<p align="center"><a href="https://pixexid.com/i/paper-light-box-village-at-dusk-db4a7a9e"><img src="https://media.pixexid.com/paper-light-box-village-at-dusk-db4a7a9e/0408bad3bada/1024.webp" alt="A backlit carved-paper diorama of a mountain village at dusk with glowing windows, a paper river and a cat in one lit window." width="760"></a></p>
 
-[Open in Alosem](https://alosem.com/i/paper-light-box-village-at-dusk-db4a7a9e)
+[Open on pixexid](https://pixexid.com/i/paper-light-box-village-at-dusk-db4a7a9e)
 
-## Exact prompt
+**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
 
-Copy this submitted prompt as a starting point. Image generation is nondeterministic, so a rerun will not reproduce identical pixels.
+## Prompt
+
+Copy this prompt as a starting point. Image generation is nondeterministic, so a rerun will not reproduce identical pixels.
 
 ```text
 Composed on a square 1:1 canvas. A handcrafted translucent paper light-box scene viewed straight on: layered cream paper cut into a tiny mountain village at dusk, mountain ridges receding in six distinct depth layers, each edge softly curled and casting real shadow onto the layer behind it.
@@ -22,7 +24,7 @@ Style: precision papercraft diorama photographed inside a square shadow-box fram
 
 | Field | Value |
 | --- | --- |
-| Model family | GPT Image 2.5 |
+| Tested on | GPT Image 2.5 |
 | Generation tool | built-in imagegen |
 | Exact backend | unknown |
 | Mode | txt2img |
@@ -35,6 +37,6 @@ Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exa
 
 **pass · checked 2026-09-17.** Framed papercraft light-box with receding cream ridge layers, carved window openings, village gate, bridges, a paper river to the front layer, one round lantern strung between two paper pines, and the sitting-cat silhouette in a single lit window. No people, no writing. Ridge layers overlap too closely to count six with certainty, as the original reviewer also noted.
 
-This externally generated result is **Curated on Alosem**. “Made with Alosem” is reserved for work actually created through an Alosem creative workflow.
+This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.
