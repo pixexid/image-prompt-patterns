@@ -5,12 +5,10 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
-const api = "https://alosem.com/api/images/";
-const assetHosts = new Set(["alosem.com", "pi.alosem.com"]);
+const api = "https://pixexid.com/api/images/";
+const assetHosts = new Set(["pixexid.com", "media.pixexid.com"]);
 const provenanceStatement =
   "Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.";
-const teamLabel =
-  "This team-generated campaign case was produced directly by the Alosem team with built-in imagegen from founder-provided identity sheets; it is neither externally published nor created through the Alosem creative product, so it is labeled **Created for Alosem**.";
 const categories = [
   ["product_visuals", "Product visuals"],
   ["posters_typography", "Posters & typography"],
@@ -19,15 +17,8 @@ const categories = [
   ["illustration_backgrounds", "Illustration & backgrounds"],
   ["focused_edits", "Focused edits"],
 ];
-const openingSlugs = [
-  "cream-terminal-that-never-existed-b3d4a9d3",
-  "glow-retro-poster-of-a-bass-player-and-boy-6b2eb59a",
-  "pressed-flower-wren-on-twig-slice-4712aff7",
-  "canal-bridge-screenprint-slice-1919a777",
-  "girl-holding-a-fallen-moon-in-a-tidal-pool-65b8e726",
-  "ancient-sword-bridges-a-canyon-of-pages-0a39debe",
-];
-const workedSlug = "glow-retro-poster-of-a-bass-player-and-boy-6b2eb59a";
+const testedOn =
+  "**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.\n\n";
 const uuid =
   /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
@@ -45,7 +36,7 @@ const escapeHtml = (value) =>
 function checkedUrl(value, expectedHost, label) {
   const url = new URL(value);
   if (url.protocol !== "https:" || !assetHosts.has(url.hostname))
-    fail("Invalid Alosem " + label + " URL: " + value);
+    fail("Invalid pixexid " + label + " URL: " + value);
   if (expectedHost && url.hostname !== expectedHost)
     fail("Unexpected host for " + label + ": " + value);
   return url.toString();
@@ -55,7 +46,7 @@ export async function fetchCase(source, fetchImpl = fetch) {
   const response = await fetchImpl(api + encodeURIComponent(source.slug), {
     signal: AbortSignal.timeout(15_000),
   });
-  if (!response.ok) fail("Alosem image unavailable (" + response.status + "): " + source.slug);
+  if (!response.ok) fail("pixexid image unavailable (" + response.status + "): " + source.slug);
 
   const record = await response.json();
   if (
@@ -72,25 +63,25 @@ export async function fetchCase(source, fetchImpl = fetch) {
   const imageUrls = {
     512: checkedUrl(
       responsive.find((url) => url.endsWith("/512.webp")),
-      "pi.alosem.com",
+      "media.pixexid.com",
       "512 image",
     ),
     1024: checkedUrl(
       responsive.find((url) => url.endsWith("/1024.webp")),
-      "pi.alosem.com",
+      "media.pixexid.com",
       "1024 image",
     ),
-    original: checkedUrl(record.imageUrl, "pi.alosem.com", "original image"),
+    original: checkedUrl(record.imageUrl, "media.pixexid.com", "original image"),
   };
   const canonical = checkedUrl(
-    "https://alosem.com/i/" + record.slug,
-    "alosem.com",
+    "https://pixexid.com/i/" + record.slug,
+    "pixexid.com",
     "canonical",
   );
 
   return {
     kind: "campaign-standalone",
-    origin: "alosem",
+    origin: "pixexid",
     id: record.id,
     slug: record.slug,
     title: record.title,
@@ -163,19 +154,18 @@ export function caseMarkdown(item) {
     '" alt="' +
     escapeHtml(item.description) +
     '" width="760"></a></p>\n\n' +
-    "[Open in Alosem](" +
+    "[Open on pixexid](" +
     item.canonical_url +
     ")\n\n" +
-    "## Exact prompt\n\n" +
-    "Copy this submitted prompt as a starting point. Image generation is nondeterministic, so a rerun will not reproduce identical pixels.\n\n" +
+    testedOn +
+    "## Prompt\n\n" +
+    "Copy this prompt as a starting point. Image generation is nondeterministic, so a rerun will not reproduce identical pixels.\n\n" +
     "```text\n" +
     item.exact_prompt +
     "\n```\n\n" +
     "## Provenance\n\n" +
     "| Field | Value |\n| --- | --- |\n" +
-    "| Model family | GPT Image 2.5 |\n" +
-    "| Generation tool | built-in imagegen |\n" +
-    "| Exact backend | unknown |\n" +
+    "| Tested on | GPT Image 2.5 (exact backend variant not exposed) |\n" +
     "| Mode | " +
     item.mode +
     " |\n" +
@@ -187,8 +177,6 @@ export function caseMarkdown(item) {
     "| Transparency | " +
     (item.hasTransparency ? "Yes" : "No") +
     " |\n\n" +
-    item.provenance.statement +
-    "\n\n" +
     "## Review notes and limitations\n\n" +
     "**" +
     item.review.verdict +
@@ -197,7 +185,6 @@ export function caseMarkdown(item) {
     ".** " +
     item.review.notes +
     "\n\n" +
-    "This externally generated result is **Curated on Alosem**. “Made with Alosem” is reserved for work actually created through an Alosem creative workflow.\n\n" +
     "Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.\n"
   );
 }
@@ -210,7 +197,7 @@ export function teamCaseMarkdown(item) {
         1 +
         ". `" +
         (reference.path || reference.file) +
-        "` — " +
+        "`: " +
         reference.role +
         "\n   - SHA-256 `" +
         reference.sha256 +
@@ -242,13 +229,14 @@ export function teamCaseMarkdown(item) {
     '" alt="' +
     escapeHtml(item.description) +
     '" width="760"></p>\n\n' +
-    "## Exact prompt\n\n" +
+    testedOn +
+    "## Prompt\n\n" +
     "Copy this standalone prompt as a starting point. Image generation is nondeterministic, so a rerun will not reproduce identical pixels.\n\n" +
     "```text\n" +
     item.exact_prompt +
     "\n```\n\n" +
     "## Reference-based run recipe\n\n" +
-    "This case was generated from founder-provided reference sheets rather than from text alone. The sheets are required image inputs to reproduce the run; each is published below and under `assets/references/` so the result can be compared with its references, and the standalone prompt above remains the public copyable prompt.\n\n" +
+    "This case was generated from reference sheets supplied by the founder rather than from text alone. The sheets are required image inputs to reproduce the run; each is published below and under `assets/references/` so the result can be compared with its references, and the standalone prompt above remains the public copyable prompt.\n\n" +
     "**Ordered references**\n\n" +
     references +
     "\n\n" +
@@ -259,9 +247,7 @@ export function teamCaseMarkdown(item) {
     "\n```\n\n" +
     "## Provenance\n\n" +
     "| Field | Value |\n| --- | --- |\n" +
-    "| Model family | GPT Image 2.5 |\n" +
-    "| Generation tool | built-in imagegen |\n" +
-    "| Exact backend | unknown |\n" +
+    "| Tested on | GPT Image 2.5 (exact backend variant not exposed) |\n" +
     "| Mode | " +
     item.mode +
     " |\n" +
@@ -273,8 +259,6 @@ export function teamCaseMarkdown(item) {
     "| Transparency | " +
     (item.hasTransparency ? "Yes" : "No") +
     " |\n\n" +
-    item.provenance.statement +
-    "\n\n" +
     "## Review notes and limitations\n\n" +
     "**" +
     item.review.verdict +
@@ -282,8 +266,6 @@ export function teamCaseMarkdown(item) {
     item.review.checked +
     ".** " +
     item.review.notes +
-    "\n\n" +
-    teamLabel +
     "\n\n" +
     "Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). The preview image is hosted in this repository under the same licence.\n"
   );
@@ -319,14 +301,6 @@ function cardTable(cards) {
   return "<table>\n" + rows.join("\n") + "\n</table>";
 }
 
-function openingGrid(cases) {
-  const bySlug = new Map(cases.map((item) => [item.slug, item]));
-  const cards = openingSlugs.map((slug) => bySlug.get(slug));
-  if (cards.some((item) => !item)) fail("Opening grid case missing");
-
-  return cardTable(cards);
-}
-
 export function readmeMarkdown(cases) {
   const counts = Object.fromEntries(
     categories.map(([key]) => [key, cases.filter((item) => item.category === key).length]),
@@ -354,65 +328,69 @@ export function readmeMarkdown(cases) {
       );
     })
     .join("\n\n");
-  const worked = cases.find((item) => item.slug === workedSlug);
-  if (!worked) fail("Worked example missing");
 
   return (
-    "# GPT Image 2.5 Prompts & Examples — by Alosem\n\n" +
-    "Original examples and exact prompts — curated by Alosem.\n\n" +
-    "See what each prompt produced and adapt it for your own work. The standalone and transparent cases need no source images; the character-identity cases were generated from reference sheets, which are published alongside each case so you can compare the result with its inputs. Browse all " +
+    "# Image prompt patterns\n\n" +
+    "Reusable AI image prompt patterns with real results, for any image generator.\n\n" +
+    "Curated by the [pixexid team](https://pixexid.com/).\n\n" +
+    "## How to use a pattern\n\n" +
+    "1. Pick the pattern that matches the picture you need.\n" +
+    "2. Copy its template and fill every `[slot]` with your own subject, setting and wording.\n" +
+    "3. Compare your result with the examples on the pattern page. Each example links to its full prompt.\n" +
+    "4. If the result misses, read the common failures on the pattern page before rewording everything.\n\n" +
+    "## Patterns\n\n" +
+    "- [Product photo brief](patterns/product-photo-brief.md): a fictional product, a set, one light direction and a blank surface.\n" +
+    "- [Character reference sheet](patterns/character-reference-sheet.md): keep one character recognizable across new scenes.\n" +
+    "- [Transparent cutout](patterns/transparent-cutout.md): a finished artwork on real transparency, with no background.\n" +
+    "- [Poster with lettering](patterns/poster-with-lettering.md): one large word as the main shape of the poster.\n" +
+    "- [Style transfer](patterns/style-transfer.md): change the medium and keep the subject the same.\n" +
+    "- Photo restoration request: examples coming. No reviewed case exists yet.\n\n" +
+    "## Guides\n\n" +
+    "- [Prompt vocabulary](guides/prompt-vocabulary.md): lighting, lens, composition, material and print terms, each tied to a real prompt.\n\n" +
+    "## Tested on\n\n" +
+    "Every example was made with the generator named on its case page: GPT Image 2.5, with the exact backend variant not exposed. We have not run these prompts on other generators, so they may need small changes there. No seed, quality setting or cost is claimed because those values were not exposed.\n\n" +
+    "## Community comparisons\n\n" +
+    "Ran one of these prompts on another generator? Add a comparison with a pull request. See [CONTRIBUTING.md](CONTRIBUTING.md).\n\n" +
+    "## All " +
     cases.length +
-    " reviewed examples here or continue in Alosem.\n\n" +
-    "[Browse examples](#category-index) · [Open the visual gallery](https://alosem.com/s/gpt-image-2-5) · [Read the JSON catalogue](data/cases.json)\n\n" +
-    "Independent community resource. Not affiliated with or endorsed by OpenAI.\n\n" +
-    "## Six examples to start with\n\n" +
-    openingGrid(cases) +
-    "\n\n" +
-    "This release contains standalone generations, transparent assets, and reference-based character-identity cases. The character-identity cases were generated by the Alosem team from founder-provided identity sheets; reproducing them requires those reference sheets as image inputs, and each sheet is published under `assets/references/` and embedded in its case pages for comparison. No case is labeled an edit because no reviewed public edit exposed its required source images.\n\n" +
-    "## Category index\n\n" +
+    " cases\n\n" +
     "<!-- category-counts " +
     JSON.stringify(counts) +
     " -->\n\n" +
     "| Category | Cases |\n| --- | ---: |\n" +
     categoryIndex +
-    "\n\nEvery case, inline, in catalogue order:\n\n" +
+    "\n\n" +
     categorySections +
     "\n\n" +
-    "## Complete worked example\n\n" +
-    "### [" +
-    worked.title +
-    "](cases/" +
-    worked.slug +
-    ".md)\n\n" +
-    worked.description +
-    "\n\n" +
-    '<p align="center"><a href="' +
-    worked.canonical_url +
-    '"><img src="' +
-    worked.image_urls["1024"] +
-    '" alt="' +
-    escapeHtml(worked.description) +
-    '" width="520"></a></p>\n\n' +
-    "#### Exact prompt\n\n```text\n" +
-    worked.exact_prompt +
-    "\n```\n\n" +
-    "**Review:** " +
-    worked.review.notes +
-    "\n\n[Open in Alosem](" +
-    worked.canonical_url +
-    ") · [Read the complete case](cases/" +
-    worked.slug +
-    ".md)\n\n" +
-    "## Provenance\n\n" +
-    provenanceStatement +
-    "\n\n" +
-    "No seed, API quality setting, cost, or backend ID is claimed because those values were not exposed. “Made with Alosem” is used only when Alosem was part of the creative workflow, and externally published examples are **Curated on Alosem**. The character-identity cases are team-generated campaign work and carry a third label, **Created for Alosem**.\n\n" +
     "## Use the catalogue\n\n" +
-    "The machine-readable [catalogue](data/cases.json) and [schema](schema/cases.schema.json) drive every case page and the counts above. Refresh and verify the export with:\n\n" +
+    "The machine-readable [catalogue](data/cases.json), its [CSV export](data/cases.csv) and the [schema](schema/cases.schema.json) drive every case page and the counts above. Refresh and verify the export with:\n\n" +
     "```sh\nnode scripts/export.mjs\nnode --test scripts/*.test.mjs\nnode scripts/validate.mjs --links\n```\n\n" +
+    "`node scripts/export.mjs --offline` rebuilds the pages and CSV from `data/cases.json` without fetching.\n\n" +
     "## Contributing and licensing\n\n" +
-    "Contributions must provide a public Alosem image, the exact submitted prompt, accurate model-family provenance, rights to share the material, and a completed visual review. See [CONTRIBUTING.md](CONTRIBUTING.md).\n\n" +
-    "Catalogue text and structured data are [CC BY 4.0](LICENSE); scripts are [MIT](LICENSE-CODE). Linked images remain remotely hosted and are not relicensed here. See [RIGHTS.md](RIGHTS.md).\n"
+    "Contributions must provide a public pixexid image, the prompt, the generator it was made with, rights to share the material, and a completed visual review. See [CONTRIBUTING.md](CONTRIBUTING.md).\n\n" +
+    "Catalogue text and structured data are [CC BY 4.0](LICENSE); scripts are [MIT](LICENSE-CODE). Linked images remain remotely hosted and are not relicensed here. See [RIGHTS.md](RIGHTS.md).\n\n" +
+    "Independent community resource. Not affiliated with or endorsed by OpenAI.\n"
+  );
+}
+
+const csvCell = (value) => '"' + String(value).replaceAll('"', '""') + '"';
+
+export function csvExport(cases) {
+  const rows = cases.map((item) => [
+    item.slug,
+    item.title,
+    item.category,
+    item.mode,
+    item.aspect,
+    item.hasTransparency,
+    "GPT Image 2.5",
+    item.canonical_url ?? "",
+    item.exact_prompt,
+  ]);
+  return (
+    [["slug", "title", "category", "mode", "aspect", "transparent", "tested_on", "url", "prompt"], ...rows]
+      .map((row) => row.map(csvCell).join(","))
+      .join("\n") + "\n"
   );
 }
 
@@ -427,8 +405,9 @@ export async function exportCatalog(sources, fetchImpl = fetch) {
 }
 
 async function main() {
-  const sources = JSON.parse(await readFile(join(root, "data/sources.json"), "utf8"));
-  const cases = await exportCatalog(sources);
+  const cases = process.argv.includes("--offline")
+    ? JSON.parse(await readFile(join(root, "data/cases.json"), "utf8")).cases
+    : await exportCatalog(JSON.parse(await readFile(join(root, "data/sources.json"), "utf8")));
   const caseDir = join(root, "cases");
   await mkdir(caseDir, { recursive: true });
   const expected = new Set(cases.map((item) => item.slug + ".md"));
@@ -441,7 +420,8 @@ async function main() {
   for (const item of cases)
     await writeFile(join(caseDir, item.slug + ".md"), caseMarkdown(item));
   await writeFile(join(root, "README.md"), readmeMarkdown(cases));
-  console.log("Exported " + cases.length + " Alosem campaign cases.");
+  await writeFile(join(root, "data/cases.csv"), csvExport(cases));
+  console.log("Exported " + cases.length + " pixexid campaign cases.");
 }
 
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url))

@@ -4,7 +4,9 @@ Sema's familiar graphic identity becomes a hand-glazed ceramic relief under quie
 
 <p align="center"><img src="../assets/sema-becomes-a-glazed-ceramic-portrait-337c92bd.jpg" alt="Sema's familiar graphic identity becomes a hand-glazed ceramic relief under quiet museum light." width="760"></p>
 
-## Exact prompt
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
+
+## Prompt
 
 Copy this standalone prompt as a starting point. Image generation is nondeterministic, so a rerun will not reproduce identical pixels.
 
@@ -14,14 +16,14 @@ A studio hero photograph of Sema reimagined as a handcrafted glazed ceramic wall
 
 ## Reference-based run recipe
 
-This case was generated from founder-provided reference sheets rather than from text alone. The sheets are required image inputs to reproduce the run; each is published below and under `assets/references/` so the result can be compared with its references, and the standalone prompt above remains the public copyable prompt.
+This case was generated from reference sheets supplied by the founder rather than from text alone. The sheets are required image inputs to reproduce the run; each is published below and under `assets/references/` so the result can be compared with its references, and the standalone prompt above remains the public copyable prompt.
 
 **Ordered references**
 
-1. `assets/references/sema-directions-sheet.png` — Primary Sema silhouette, angle, bob geometry, hair-sweep, face-inset, line-placement, and palette anchor
+1. `assets/references/sema-directions-sheet.png`: Primary Sema silhouette, angle, bob geometry, hair-sweep, face-inset, line-placement, and palette anchor
    - SHA-256 `e1d800ae146552a6818e7a4f56ed3b63302a387df3295062dcb4cf79e2c2c786`
    - Founder-supplied raster review sheet; upstream model provenance unavailable.
-2. `assets/references/sema-reactions-sheet.png` — Primary Sema eye, lash, mouth, expression-language, and accent anchor
+2. `assets/references/sema-reactions-sheet.png`: Primary Sema eye, lash, mouth, expression-language, and accent anchor
    - SHA-256 `7bac316938369e9fae96a10d4e6b864843280f9ce8ceb580b63c7c3b462ed717`
    - Founder-supplied raster review sheet; upstream model provenance unavailable.
 
@@ -48,19 +50,13 @@ Avoid: taller egg-shaped head, narrow face inset, centered curtain bangs, revers
 
 | Field | Value |
 | --- | --- |
-| Model family | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | reference-based style-transfer |
 | Dimensions | 1254 × 1254 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
-**pass · checked 2026-09-17.** Identity verified against the stated proportions rather than by impression: the head including its black contour measures W/H ≈ 1.07, satisfying 'near-circular horizontal oval, slightly wider than tall', with the ivory face inset low inside the hair mass at roughly two-thirds of total head width. The heavy golden fringe begins near top-centre and sweeps diagonally across the forehead to the lower-right cheek in the correct direction — not reversed, not centred curtain bangs — with the shorter pointed lock on the left and two rounded lower side lobes. Medium proof passes: raised relief with real thickness, glaze pooling along the black contours, specular gloss, subtle kiln mottling, and a physical cast shadow establish fired ceramic rather than a flat print. One complete head, no body, neck, ears, or nose, generous wall margin on all sides, no crop, text, or watermark.
-
-This team-generated campaign case was produced directly by the Alosem team with built-in imagegen from founder-provided identity sheets; it is neither externally published nor created through the Alosem creative product, so it is labeled **Created for Alosem**.
+**pass · checked 2026-09-17.** Identity verified against the stated proportions rather than by impression: the head including its black contour measures W/H ≈ 1.07, satisfying 'near-circular horizontal oval, slightly wider than tall', with the ivory face inset low inside the hair mass at roughly two-thirds of total head width. The heavy golden fringe begins near top-centre and sweeps diagonally across the forehead to the lower-right cheek in the correct direction - not reversed, not centred curtain bangs - with the shorter pointed lock on the left and two rounded lower side lobes. Medium proof passes: raised relief with real thickness, glaze pooling along the black contours, specular gloss, subtle kiln mottling, and a physical cast shadow establish fired ceramic rather than a flat print. One complete head, no body, neck, ears, or nose, generous wall margin on all sides, no crop, text, or watermark.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). The preview image is hosted in this repository under the same licence.

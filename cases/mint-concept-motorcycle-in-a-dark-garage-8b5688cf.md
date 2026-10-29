@@ -2,13 +2,15 @@
 
 A glossy mint-green futuristic concept motorcycle with blank fairings stands in a dim garage under teal and amber lights.
 
-<p align="center"><a href="https://alosem.com/i/mint-concept-motorcycle-in-a-dark-garage-8b5688cf"><img src="https://pi.alosem.com/mint-concept-motorcycle-in-a-dark-garage-8b5688cf/3c9a3781ae75/1024.webp" alt="A glossy mint-green futuristic concept motorcycle with blank fairings stands in a dim garage under teal and amber lights." width="760"></a></p>
+<p align="center"><a href="https://pixexid.com/i/mint-concept-motorcycle-in-a-dark-garage-8b5688cf"><img src="https://media.pixexid.com/mint-concept-motorcycle-in-a-dark-garage-8b5688cf/3c9a3781ae75/1024.webp" alt="A glossy mint-green futuristic concept motorcycle with blank fairings stands in a dim garage under teal and amber lights." width="760"></a></p>
 
-[Open in Alosem](https://alosem.com/i/mint-concept-motorcycle-in-a-dark-garage-8b5688cf)
+[Open on pixexid](https://pixexid.com/i/mint-concept-motorcycle-in-a-dark-garage-8b5688cf)
 
-## Exact prompt
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
-Copy this submitted prompt as a starting point. Image generation is nondeterministic, so a rerun will not reproduce identical pixels.
+## Prompt
+
+Copy this prompt as a starting point. Image generation is nondeterministic, so a rerun will not reproduce identical pixels.
 
 ```text
 Composed on a wide 16:9 horizontal canvas. A cinematic photoreal shot of a futuristic concept motorcycle parked on a polished dark concrete floor inside a dim industrial garage, angled three-quarter from the front right, its broad rear tire toward the viewer.
@@ -22,19 +24,13 @@ The polished floor mirrors the bike in a soft blurred reflection broken by faint
 
 | Field | Value |
 | --- | --- |
-| Model family | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 1672 × 941 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Fully framed mint concept bike, coherent tires, discs, forks, fairing and grounded reflection. Fairing panels are blank and unbadged as required; faint unreadable embossing appears only on the rear hub cover, which is not a fairing panel. Single-sided rear hub with radial struts reads as a deliberate concept design, not a missing swingarm.
-
-This externally generated result is **Curated on Alosem**. “Made with Alosem” is reserved for work actually created through an Alosem creative workflow.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

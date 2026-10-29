@@ -4,7 +4,9 @@ A focused blond architect adjusts a scale model beneath warm task lights as rain
 
 <p align="center"><img src="../assets/blond-man-studies-a-rainy-city-model-9acedb62.jpg" alt="A focused blond architect adjusts a scale model beneath warm task lights as rain blurs the city windows." width="760"></p>
 
-## Exact prompt
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
+
+## Prompt
 
 Copy this standalone prompt as a starting point. Image generation is nondeterministic, so a rerun will not reproduce identical pixels.
 
@@ -14,11 +16,11 @@ A photorealistic editorial photograph of a blond, brown-eyed young man with ligh
 
 ## Reference-based run recipe
 
-This case was generated from founder-provided reference sheets rather than from text alone. The sheets are required image inputs to reproduce the run; each is published below and under `assets/references/` so the result can be compared with its references, and the standalone prompt above remains the public copyable prompt.
+This case was generated from reference sheets supplied by the founder rather than from text alone. The sheets are required image inputs to reproduce the run; each is published below and under `assets/references/` so the result can be compared with its references, and the standalone prompt above remains the public copyable prompt.
 
 **Ordered references**
 
-1. `assets/references/blond-male-identity-sheet.png` — Sole blond-male identity anchor; face geometry, brown eyes, light stubble, swept-wavy hair mass, athletic body proportions, expressions, and hand anatomy
+1. `assets/references/blond-male-identity-sheet.png`: Sole blond-male identity anchor; face geometry, brown eyes, light stubble, swept-wavy hair mass, athletic body proportions, expressions, and hand anatomy
    - SHA-256 `bfaa509e0492c7496dceaa14486a552029262e01e39407411cfbb07003c74523`
    - Founder-supplied identity sheet; founder-stated GPT Image 2.5 output.
 
@@ -45,19 +47,13 @@ Avoid: widened round face, narrow pinched jaw, flat or helmet-like hair, bodybui
 
 | Field | Value |
 | --- | --- |
-| Model family | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | reference-based identity-preserve |
 | Dimensions | 1370 × 1148 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Independent verification confirmed identity fidelity against the blond-male turnaround: a long oval face clearly longer than wide, broad cheekbones, a firm tapered jaw and medium-square chin, light stubble, and the high swept-wavy hair mass preserved rather than flattened, on an athletic broad-shouldered build. Because the downcast irises read grey-blue at display scale, they were sampled numerically: iris R−B of +61 and +78 against the reference panel's +59 confirms the prompted brown eyes. The reaching hand shows four fingers plus a nailed thumb, the resting hand four nailed fingers with the thumb occluded, and both hands remain fully in frame as asked. Background boards and drawings carry no lettering, and no watermark, extra person, or reference-sheet panel appears.
-
-This team-generated campaign case was produced directly by the Alosem team with built-in imagegen from founder-provided identity sheets; it is neither externally published nor created through the Alosem creative product, so it is labeled **Created for Alosem**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). The preview image is hosted in this repository under the same licence.
