@@ -16,11 +16,11 @@ Style: flat vector-like shapes with subtle print grain, a limited palette of [fo
 
 ## Why each part is there
 
-- **The word is written out in capitals, once.** The prompt says "the word GLOW" and names its size, color and style. The review read the result letter by letter: G, L, O, W, left to right, with no substitution, duplication or extra word.
-- **Cropping is requested.** "Cropped by the canvas edges" is stated, so the review treated the cropped G as correct instead of a defect. If you do not want a cropped letter, say so.
-- **Where the figures meet the lettering is stated.** The tall man's head reaches "up into the lettering zone". The result delivered that overlap.
-- **A short palette.** "Cream paper, black, vivid red and one green accent" names four colors and a single accent, so the palette stays small.
-- **Nothing else says anything.** The review found no gibberish text anywhere else in the poster. The other cases in this repository state "no text" or "no writing" in their prompts, and the reviews that checked found none. If you want only one word, say it is the only text.
+- **The word is written out in capitals, once.** The prompt says "the word GLOW" ([Glow Retro Poster of a Bass Player and Boy](../cases/glow-retro-poster-of-a-bass-player-and-boy-6b2eb59a.md)) and names its size, color and style. The review read the result letter by letter: G, L, O, W, left to right, with no substitution, duplication or extra word.
+- **Cropping is requested.** The prompt says "cropped by the canvas edges" ([Glow Retro Poster of a Bass Player and Boy](../cases/glow-retro-poster-of-a-bass-player-and-boy-6b2eb59a.md)), so the review treated the cropped G as correct instead of a defect. If you do not want a cropped letter, say so.
+- **Where the figures meet the lettering is stated.** The prompt has the tall man "reaching up into the lettering zone" ([Glow Retro Poster of a Bass Player and Boy](../cases/glow-retro-poster-of-a-bass-player-and-boy-6b2eb59a.md)). The result delivered that overlap.
+- **A short palette.** The prompt names "cream paper, black, vivid red and one green accent" ([Glow Retro Poster of a Bass Player and Boy](../cases/glow-retro-poster-of-a-bass-player-and-boy-6b2eb59a.md)), which is four colors and a single accent.
+- **Nothing else says anything.** The review found no gibberish text anywhere else in the poster. This prompt does not ban other text, so the clean result is an observation, not an instruction. The transparent cutout prompts do ask "No text appears anywhere" ([Pressed Flower Wren on Twig Slice](../cases/pressed-flower-wren-on-twig-slice-4712aff7.md)).
 
 ## Example
 
@@ -30,7 +30,7 @@ Style: flat vector-like shapes with subtle print grain, a limited palette of [fo
 </tr>
 </table>
 
-Tested on GPT Image 2.5 through built-in imagegen.
+Tested on GPT Image 2.5.
 
 ## Common failures
 

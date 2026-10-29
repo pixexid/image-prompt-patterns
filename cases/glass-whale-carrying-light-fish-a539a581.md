@@ -6,7 +6,7 @@ A hand-blown glass whale arcs through a dark void carrying glowing fish inside i
 
 [Open on pixexid](https://pixexid.com/i/glass-whale-carrying-light-fish-a539a581)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -22,19 +22,13 @@ A subtle motion blur sweeps along the outer curve of the turn while the head sta
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 1536 × 1024 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Complete glass whale with readable head, eye, ridged throat, lifted fluke and two pectoral fins - the long knobbed lower-left form is the far pectoral, not a stray limb. Luminous fish visible inside the refracting body; caustic bands and frosted bloom near the tail as prompted. No clipping, lettering, watermark or second whale.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

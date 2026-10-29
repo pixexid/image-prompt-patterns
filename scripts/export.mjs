@@ -9,8 +9,6 @@ const api = "https://pixexid.com/api/images/";
 const assetHosts = new Set(["pixexid.com", "media.pixexid.com"]);
 const provenanceStatement =
   "Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.";
-const teamLabel =
-  "This team-generated campaign case was produced directly by the pixexid team with built-in imagegen from identity sheets supplied by the founder; it is neither externally published nor made in the pixexid product, so it is labeled **Created for pixexid**.";
 const categories = [
   ["product_visuals", "Product visuals"],
   ["posters_typography", "Posters & typography"],
@@ -20,7 +18,7 @@ const categories = [
   ["focused_edits", "Focused edits"],
 ];
 const testedOn =
-  "**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.\n\n";
+  "**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.\n\n";
 const uuid =
   /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
@@ -167,9 +165,7 @@ export function caseMarkdown(item) {
     "\n```\n\n" +
     "## Provenance\n\n" +
     "| Field | Value |\n| --- | --- |\n" +
-    "| Tested on | GPT Image 2.5 |\n" +
-    "| Generation tool | built-in imagegen |\n" +
-    "| Exact backend | unknown |\n" +
+    "| Tested on | GPT Image 2.5 (exact backend variant not exposed) |\n" +
     "| Mode | " +
     item.mode +
     " |\n" +
@@ -181,8 +177,6 @@ export function caseMarkdown(item) {
     "| Transparency | " +
     (item.hasTransparency ? "Yes" : "No") +
     " |\n\n" +
-    item.provenance.statement +
-    "\n\n" +
     "## Review notes and limitations\n\n" +
     "**" +
     item.review.verdict +
@@ -191,7 +185,6 @@ export function caseMarkdown(item) {
     ".** " +
     item.review.notes +
     "\n\n" +
-    "This result was made outside the pixexid product and is **Curated on pixexid**.\n\n" +
     "Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.\n"
   );
 }
@@ -254,9 +247,7 @@ export function teamCaseMarkdown(item) {
     "\n```\n\n" +
     "## Provenance\n\n" +
     "| Field | Value |\n| --- | --- |\n" +
-    "| Tested on | GPT Image 2.5 |\n" +
-    "| Generation tool | built-in imagegen |\n" +
-    "| Exact backend | unknown |\n" +
+    "| Tested on | GPT Image 2.5 (exact backend variant not exposed) |\n" +
     "| Mode | " +
     item.mode +
     " |\n" +
@@ -268,8 +259,6 @@ export function teamCaseMarkdown(item) {
     "| Transparency | " +
     (item.hasTransparency ? "Yes" : "No") +
     " |\n\n" +
-    item.provenance.statement +
-    "\n\n" +
     "## Review notes and limitations\n\n" +
     "**" +
     item.review.verdict +
@@ -277,8 +266,6 @@ export function teamCaseMarkdown(item) {
     item.review.checked +
     ".** " +
     item.review.notes +
-    "\n\n" +
-    teamLabel +
     "\n\n" +
     "Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). The preview image is hosted in this repository under the same licence.\n"
   );
@@ -361,7 +348,7 @@ export function readmeMarkdown(cases) {
     "## Guides\n\n" +
     "- [Prompt vocabulary](guides/prompt-vocabulary.md): lighting, lens, composition, material and print terms, each tied to a real prompt.\n\n" +
     "## Tested on\n\n" +
-    "Every example was made with the generator named on its case page: GPT Image 2.5 through built-in imagegen, with the exact backend variant not exposed. We have not run these prompts on other generators, so they may need small changes there. No seed, quality setting or cost is claimed because those values were not exposed.\n\n" +
+    "Every example was made with the generator named on its case page: GPT Image 2.5, with the exact backend variant not exposed. We have not run these prompts on other generators, so they may need small changes there. No seed, quality setting or cost is claimed because those values were not exposed.\n\n" +
     "## Community comparisons\n\n" +
     "Ran one of these prompts on another generator? Add a comparison with a pull request. See [CONTRIBUTING.md](CONTRIBUTING.md).\n\n" +
     "## All " +

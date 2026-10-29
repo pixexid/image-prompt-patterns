@@ -6,7 +6,7 @@ An ornate sword spans a canyon carved into an open book, where layered ivory pag
 
 [Open on pixexid](https://pixexid.com/i/ancient-sword-bridges-a-canyon-of-pages-0a39debe)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -24,19 +24,13 @@ Use a wide 16:9 cinematic macro photograph from a low oblique three-quarter angl
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 1672 × 941 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Both support contacts are visible as required: the grip and gold crossguard rest on the lower-left page bank and the blade near its point rests on the upper-right bank. Continuous straight blade with a fuller catching one line of warm light; carved terraced page cliffs, stair, gold gutter ribbon, leather cover and tabletop all coherent. Page surfaces blank, no watermark.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

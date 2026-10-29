@@ -6,7 +6,7 @@ A rust-red radio telescope watches a crescent moon through a deep spiral of torn
 
 [Open on pixexid](https://pixexid.com/i/radio-telescope-inside-a-paper-spiral-5279e774)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -22,19 +22,13 @@ Build the foreground from layered deckled paper fibers with soft shadows that ma
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 1254 × 1254 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Exactly one rust-red telescope on the left third, dish tilted toward the crescent on the upper right, fully separated from every torn edge, legs planted on the salt crust, complete dish silhouette. Silver track curves from the base and continues into the spiral tear; crescent reflected once in a pool. Paper, panels and horizon all blank. No text.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

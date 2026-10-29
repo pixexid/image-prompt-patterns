@@ -6,7 +6,7 @@ A seated cartographer opens a paper map whose torn edge unfolds into a sparse ci
 
 [Open on pixexid](https://pixexid.com/i/mapmaker-unfolding-a-city-e9f8e7a1)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -20,19 +20,13 @@ A square editorial concept-art painting on a warm off-white ground: a solitary c
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 1254 × 1254 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Both hands verified at 1024px: the left hand shows four curled fingers over the map edge with the thumb occluded, the right hand shows a thumb and three to four fingers pinching the corner - painterly but anatomically plausible, no extra or fused digits. The map's torn upper edge continues into a sparse skyline attached to the paper rather than floating. No words, labels or typography on the map.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
 
-import { validateCase } from "./validate.mjs";
+import { quoteError, validateCase } from "./validate.mjs";
 
 const cases = JSON.parse(
   await readFile(new URL("../data/cases.json", import.meta.url), "utf8"),
@@ -53,4 +53,12 @@ test("rejects campaign category, model, prompt, canonical and transparency drift
       assert.throws(() => validateCase(changed), expected);
     });
   }
+});
+
+test("a quote must come from the case it links to, not just any case", () => {
+  const link = (slug) => ' ([Case](../cases/' + slug + '.md))';
+  const quote = '"one integrated handle"';
+  assert.equal(quoteError(quote + link("chrome-watering-can-pours-a-silver-arc-579c8330")), undefined);
+  assert.match(quoteError(quote + link("06-minimalist-scooter-village-2f97d52a")), /Quote not in 06-minimalist/);
+  assert.match(quoteError(quote), /Quote without case link/);
 });

@@ -4,7 +4,7 @@ A blue-gray merle French bulldog studies a reflective tidepool on a cool, mist-s
 
 <p align="center"><img src="../assets/merle-bulldog-explores-a-misty-tidepool-e42f702d.jpg" alt="A blue-gray merle French bulldog studies a reflective tidepool on a cool, mist-softened coast." width="760"></p>
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -47,19 +47,13 @@ Avoid: tall lean terrier proportions, narrow head, long snout, low ear set, blue
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | reference-based identity-preserve |
 | Dimensions | 1535 × 1024 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Verification confirmed every listed breed marker against the merle French bulldog anchor: broad nearly square head, tall upright bat ears set wide apart with rounded tips, an extremely short wrinkled muzzle, pale blue-grey eyes set wide, cream base coat with irregular blue-grey merle mottling rather than stripes or spots, wide chest, and a short tail stub. The limb count was checked at native resolution: four distinct weight-bearing legs and four coherent paws with separated toes and visible claws, one head, two ears, no fused or duplicated limb, and the tidepool reflection reads as an inverted blur rather than a second dog. Note, not a defect: the measured cream-body length-to-withers ratio of 1.30 sits at the upper end of 'slightly longer than tall', so the build reads a touch leggier and less cobby than the stocky reference, with straighter legs; recognition is unaffected.
-
-This team-generated campaign case was produced directly by the pixexid team with built-in imagegen from identity sheets supplied by the founder; it is neither externally published nor made in the pixexid product, so it is labeled **Created for pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). The preview image is hosted in this repository under the same licence.

@@ -6,7 +6,7 @@ A pen-and-ink crosshatch portrait of an invented elderly astronomer on a vivid r
 
 [Open on pixexid](https://pixexid.com/i/red-crosshatch-portrait-of-an-old-astronomer-fca9cc5e)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -24,19 +24,13 @@ Style: vintage engraved plate meets modern poster; dense parallel-line shading, 
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 941 × 1672 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Checked the ruler border at high magnification for stray glyphs: pure tick marks and corner star symbols, zero numerals or lettering, matching 'no writing or lettering anywhere'. Both eyes are coherent under the hatching. Spectacles sit pushed up on the forehead exactly as prompted, so the unusual first read is requested, not a defect. Gold star accent near the collar present.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

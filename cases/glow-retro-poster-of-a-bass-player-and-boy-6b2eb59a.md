@@ -6,7 +6,7 @@ A retro flat-shape poster of a tall bass player and a boy with a green paper lan
 
 [Open on pixexid](https://pixexid.com/i/glow-retro-poster-of-a-bass-player-and-boy-6b2eb59a)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -24,19 +24,13 @@ Style: flat vector-like shapes with subtle print grain, a limited palette of cre
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 941 × 1672 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Letter-by-letter against the prompt's 'the word GLOW spans the full width in enormous flat red display letters, cropped by the canvas edges': G-L-O-W, left to right, four glyphs, no substitution, duplication, omission or extra word. Edge cropping of the G and the display type is explicitly requested, not a defect. Tall man in long black coat with double-bass case, small boy with green paper lantern on a short pole, both walking left to right, man's head into the lettering zone, red disc low right, dark city silhouettes and one green leaf shape at the bottom corners - all delivered. No gibberish text anywhere else.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

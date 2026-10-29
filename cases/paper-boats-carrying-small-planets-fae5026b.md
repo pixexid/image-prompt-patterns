@@ -6,7 +6,7 @@ Tiny glowing paper boats drift across a deep indigo cosmic field, each one carry
 
 [Open on pixexid](https://pixexid.com/i/paper-boats-carrying-small-planets-fae5026b)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -22,19 +22,13 @@ The boats sail a gentle diagonal within the frame, each fully visible with clear
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 1536 × 1024 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Exactly three cream paper boats, each with clear dark margin and none cropped. Cargo matches the prompt precisely: one rose-gold ringed planet, one pale gold banded planet, one lavender-grey moon. NOTE - the original review note says 'each carrying one differently colored ringed planet', which is inaccurate; only one carries a ring. The image is correct, the note is not.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

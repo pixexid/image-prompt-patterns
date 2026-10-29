@@ -1,6 +1,6 @@
 # Product photo brief
 
-Use this when you need a picture of a product that does not exist, with a clean look and no brand marks on it. All four examples are fictional objects with blank surfaces.
+Use this when you need a picture of a product that does not exist, with a clean look and no brand marks on it. All four examples are fictional objects and ask for blank surfaces. Two of them show faint marks anyway, see the failures below.
 
 ## Template
 
@@ -10,12 +10,12 @@ A [aspect ratio] [photo type, for example editorial product photograph] of one c
 
 ## Why each part is there
 
-- **Completely fictional, with blank surfaces.** The scooter prompt says "Every visible surface must be blank" and lists badge, emblem, medallion and sticker by name. The cream terminal prompt asks for keys "with no legends" and a screen showing an abstract gradient and no icons or text. Naming the marks you do not want is what keeps a made-up product from borrowing a real brand.
+- **Completely fictional, with blank surfaces.** The scooter prompt asks for "Every visible surface must be blank" ([06 Minimalist Scooter Village](../cases/06-minimalist-scooter-village-2f97d52a.md)) and lists badge, emblem, medallion and sticker by name. The terminal prompt asks for keys "with no legends" ([Cream Terminal That Never Existed](../cases/cream-terminal-that-never-existed-b3d4a9d3.md)) and a screen showing an abstract gradient and no icons or text. These clauses are the request. The recorded results did not always meet it.
 - **A few concrete design details.** The scooter lists a thin horizontal headlight strip, a seamless front shield and a plain one-piece seat. The review checked those against the image, which is only possible because the prompt made them specific.
-- **Whole product inside the frame.** The scooter prompt asks for "both wheels fully inside the frame" and the review confirmed both wheels and the full body were in view.
-- **Name what a reflective surface reflects.** The chrome watering can prompt describes "a cobalt-blue upper sky, lavender middle distance and narrow peach horizon" reflecting across the body. The review found the reflections continuous across the body and spout. A chrome object with no stated surroundings has nothing to reflect.
-- **One light, one direction.** The terminal uses "soft museum softbox light" that rakes the enamel. The motorcycle sets warm amber strip lights against a cool body. The scooter asks for long afternoon shadows. Each prompt picks one lighting idea and says where it falls.
-- **Counts for the parts that go wrong.** The watering can prompt asks for "one integrated handle" and one spout. The review confirmed one handle, one spout and one stream, and counted four curled fingers plus a thumb on the gripping hand.
+- **Whole product inside the frame.** The scooter prompt asks for "both wheels fully inside the frame" ([06 Minimalist Scooter Village](../cases/06-minimalist-scooter-village-2f97d52a.md)) and the review confirmed both wheels and the full body were in view.
+- **Name what a reflective surface reflects.** The watering can prompt names "a cobalt-blue upper sky, lavender middle distance and narrow peach horizon" ([Chrome Watering Can Pours a Silver Arc](../cases/chrome-watering-can-pours-a-silver-arc-579c8330.md)). The review found the sky and horizon reflections continuous across the body and spout. No case here tests the same object without stated surroundings.
+- **One light, one direction.** The terminal prompt uses "Soft museum softbox light rakes the enamel" ([Cream Terminal That Never Existed](../cases/cream-terminal-that-never-existed-b3d4a9d3.md)). The motorcycle prompt sets "Warm amber strip lights on the background columns contrast the cool body" ([Mint Concept Motorcycle in a Dark Garage](../cases/mint-concept-motorcycle-in-a-dark-garage-8b5688cf.md)). The scooter prompt asks for "Emphasize long afternoon shadows" ([06 Minimalist Scooter Village](../cases/06-minimalist-scooter-village-2f97d52a.md)). Each prompt picks one lighting idea and says where it falls.
+- **Counts for the parts that go wrong.** The watering can prompt asks for "one integrated handle" ([Chrome Watering Can Pours a Silver Arc](../cases/chrome-watering-can-pours-a-silver-arc-579c8330.md)) and one spout. The review confirmed one handle, one spout and one stream, and counted four curled fingers plus a thumb on the gripping hand.
 
 ## Examples
 
@@ -30,7 +30,7 @@ A [aspect ratio] [photo type, for example editorial product photograph] of one c
 </tr>
 </table>
 
-All four were tested on GPT Image 2.5 through built-in imagegen. Each case page has the full prompt.
+All four were tested on GPT Image 2.5. Each case page has the full prompt.
 
 ## Common failures
 

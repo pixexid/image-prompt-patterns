@@ -4,7 +4,7 @@ The blond character moves through a sunlit flower market with an easy smile and 
 
 <p align="center"><img src="../assets/blond-man-crosses-the-morning-flower-market-d2d3b695.jpg" alt="The blond character moves through a sunlit flower market with an easy smile and a plain canvas tote." width="760"></p>
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -47,19 +47,13 @@ Avoid: visible sneakers, visible shoe construction, exposed ankles, raised trous
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | reference-based identity-preserve |
 | Dimensions | 1024 × 1536 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Resolved after two repair passes. The first two generations were flagged for mismatched footwear; the selected third generation instead puts the subject in matching floor-length tailored trousers whose cuffs cover both feet, so the footwear defect class is structurally eliminated rather than re-attempted, with only identical flat dark toe/sole slivers below each hem. Footwear was never an identity attribute here - the reference turnaround shows this subject barefoot in all five views. Identity holds against the same anchor as the rain-studio case (iris R−B of +70 and +82, brown; same long oval face, broad cheekbones, firm tapered jaw, light stubble, and high swept-wavy hair mass). Note: this is a fresh full render, not the earlier frame, so the market sits to the left, the pavement is wet and reflective, and the background crowd differs. Both hands are clean, background shoppers are indistinct, and no readable text, logo, or watermark appears. Minor note: the trouser hems read a little wider and more flared than the prompt's 'straight tailored cut'.
-
-This team-generated campaign case was produced directly by the pixexid team with built-in imagegen from identity sheets supplied by the founder; it is neither externally published nor made in the pixexid product, so it is labeled **Created for pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). The preview image is hosted in this repository under the same licence.

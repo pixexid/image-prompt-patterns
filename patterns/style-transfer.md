@@ -23,11 +23,11 @@ Avoid: [the wrong version of each proportion].
 
 ## Why each part is there
 
-- **Change the medium only.** The sentence is in both prompts, and the reviews measured it. The ceramic head came out about 1.07 times wider than tall, matching the "slightly wider than tall" proportion in the prompt.
-- **Each input image has one job.** Image 1 holds shape and hair, Image 2 holds eyes and mouth. Splitting the roles keeps the face from being averaged.
-- **The material is physical, with one flaw.** "Glaze pooling and kiln variation" is why the ceramic reads as fired clay. The review found raised relief with real thickness and a cast shadow, not a flat print.
-- **Say what would count as failure.** The four material prompt avoids "four color variants of the same material". The review confirmed four distinct media: felted wool, glazed ceramic, carved painted wood and cast resin.
-- **A grid is described exactly.** "Exact 2-by-2 grid, one fully contained head per cell, matching scale". The review measured the head sizes within a 5.9 percent width spread.
+- **Change the medium only.** The prompts say "Change the medium only" ([Sema Becomes a Glazed Ceramic Portrait](../cases/sema-becomes-a-glazed-ceramic-portrait-337c92bd.md)). The review measured the ceramic head at about 1.07 times wider than tall, matching the "slightly wider than tall" ([Sema Becomes a Glazed Ceramic Portrait](../cases/sema-becomes-a-glazed-ceramic-portrait-337c92bd.md)) proportion in the prompt.
+- **Each input image has one job.** The prompts assign silhouette and hair to Image 1 and eyes and mouth to Image 2. The reviewed outputs kept the recorded proportions. No case compares this against a run with unsplit inputs, so the split is the method used here, not a tested cause.
+- **The material is described as physical, with one flaw.** The prompt asks for "Slight glaze pooling and kiln variation" ([Sema Becomes a Glazed Ceramic Portrait](../cases/sema-becomes-a-glazed-ceramic-portrait-337c92bd.md)). The review records raised relief with real thickness, glaze pooling along the contours, specular gloss, subtle kiln mottling and a physical cast shadow, which together read as fired ceramic and not a flat print.
+- **Say what would count as failure.** The four material prompt avoids "four color variants of the same material" ([Sema Travels Across Four Crafted Materials](../cases/sema-travels-across-four-crafted-materials-36e3d7f0.md)). The review confirmed four distinct media: felted wool, glazed ceramic, carved painted wood and cast resin.
+- **A grid is described exactly.** The prompt asks for "Exact 2-by-2 grid, one fully contained head per cell, matching scale" ([Sema Travels Across Four Crafted Materials](../cases/sema-travels-across-four-crafted-materials-36e3d7f0.md)). The review measured the head sizes within a 5.9 percent width spread.
 
 ## Examples
 
@@ -38,7 +38,7 @@ Avoid: [the wrong version of each proportion].
 </tr>
 </table>
 
-Both were tested on GPT Image 2.5 through built-in imagegen with the two sheets as image inputs.
+Both were tested on GPT Image 2.5 with the two sheets as image inputs.
 
 ## Common failures
 

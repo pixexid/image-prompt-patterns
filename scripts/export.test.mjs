@@ -144,7 +144,7 @@ test("projects a team source into a reference-based case", () => {
   assert.equal(item.hasTransparency, false);
   const page = caseMarkdown(item);
   assert.match(page, /## Reference-based run recipe/);
-  assert.match(page, /Created for pixexid/);
+  assert.doesNotMatch(page, /Created for|Curated on|built-in imagegen/);
   assert.match(page, /\.\.\/assets\/team-fixture-case-11111111\.jpg/);
   assert.match(page, /Use case: identity-preserve/);
 });

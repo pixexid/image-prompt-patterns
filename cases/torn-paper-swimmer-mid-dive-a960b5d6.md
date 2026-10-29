@@ -6,7 +6,7 @@ A torn-paper collage of a swimmer mid-dive, splash bursting into paper flecks th
 
 [Open on pixexid](https://pixexid.com/i/torn-paper-swimmer-mid-dive-a960b5d6)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -24,19 +24,13 @@ The background is warm cream paper with visible fiber texture and generous empty
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 1672 × 941 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Single swimmer, cap, goggles, arched diagonal from fingertips upper-left to toes lower-right, blue paper ribbon, confetti splash flecks, teal torn water. NOTE - the original review note claims 'no frame clipping', but the starting block is cropped by the right edge; no prompt clause forbids it, so this is a note, not a defect. The prompt's own 'hands just breaking the water surface' is unsatisfiable given its stated diagonal, and the model's reading is reasonable.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

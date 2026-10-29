@@ -6,7 +6,7 @@ A cracked gray impasto face splits along one rust-orange seam, flaking thick pai
 
 [Open on pixexid](https://pixexid.com/i/rust-seam-splitting-a-gray-painted-face-7cabb9a6)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -22,19 +22,13 @@ The paint reads as material, not wound: dry cracked plates, rust blooms, rope fi
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 1024 × 1536 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Face anatomically coherent beneath the cracked gray impasto with both eyes open and gazing past the viewer. One continuous rust seam runs crown to chest without breaking. Rope braids hang at both frame edges, ochre brushstroke backdrop behind. Reads as material, not wound. No text, watermark or signature.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

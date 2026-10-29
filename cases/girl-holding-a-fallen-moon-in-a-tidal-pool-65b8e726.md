@@ -6,7 +6,7 @@ A small girl cups a glowing miniature moon in a quiet tidal pool at blue hour, i
 
 [Open on pixexid](https://pixexid.com/i/girl-holding-a-fallen-moon-in-a-tidal-pool-65b8e726)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -22,19 +22,13 @@ Dark navy sky and black water surround the small circle of wonder. Wet sand mirr
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 1024 × 1536 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** ALTERNATE rank 8, illustration_backgrounds. Photoreal night beach: girl crouched with both hands cupping a glowing moon sphere half-submerged in a tidal pool, lighthouse beam, crabs, feather. Both hands and both arms read correctly, face coherent, crouch pose plausible, no stray limb or text. Strongest like-for-like replacement for a photoreal case. Promotable (first choice).
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

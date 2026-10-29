@@ -12,12 +12,12 @@ The slice sits fully intact with clear transparent margin on every side; the tra
 
 ## Why each part is there
 
-- **Say what transparent means.** The prompts spell out "alpha = 0" and rule out white, color, a surface and a checkerboard. The reviews checked the files: the top-left pixel was fully transparent in the wren, dragonfly, tin sun and screenprint cases, and the wren review confirms no checkerboard was drawn.
+- **Say what transparent means.** The prompts spell out "alpha = 0" ([Pressed Flower Wren on Twig Slice](../cases/pressed-flower-wren-on-twig-slice-4712aff7.md)) and rule out white, color, a surface and a checkerboard. The reviews checked the files: the top-left pixel was fully transparent in the wren, dragonfly, tin sun and screenprint cases, and the wren review confirms no checkerboard was drawn.
 - **A scene slice, not an object.** One bounded scene gives the generator a shape to end on. The dragonfly review measured an opaque fraction of 0.183 and found nothing clipped.
 - **Loose ends that belong to the craft.** The wren scatters petals, the dragonfly's reeds trail into open spirals, the tin sun curls a corner of metal, the screenprint breaks into stray halftone dots. This is what keeps the edge from looking cut out with scissors.
-- **Margin on all four borders.** "Clear transparent margin on every side" is there so nothing is clipped. The reviews measured the maximum alpha on each border row and column.
+- **Margin on all four borders.** The prompt asks for "clear transparent margin on every side" ([Pressed Flower Wren on Twig Slice](../cases/pressed-flower-wren-on-twig-slice-4712aff7.md)) so nothing is clipped. The reviews measured the maximum alpha on each border row and column.
 - **Light stays inside the slice.** Shadows and highlights are limited to the artwork, so nothing glows or casts onto the empty canvas.
-- **No text.** The line "No text appears anywhere" is in every transparent case, and the reviews that checked for text found none.
+- **No text.** The prompts ask "No text appears anywhere" ([Pressed Flower Wren on Twig Slice](../cases/pressed-flower-wren-on-twig-slice-4712aff7.md)), and the reviews that checked for text found none.
 
 ## Examples
 
@@ -32,10 +32,10 @@ The slice sits fully intact with clear transparent margin on every side; the tra
 </tr>
 </table>
 
-All four were tested on GPT Image 2.5 through built-in imagegen. [Spring ridge walk](../cases/spring-ridge-walk-leaf-collage-slice-1d5e0d44.md) and [quilled blossom branch](../cases/quilled-blossom-branch-with-birds-7cd0690d.md) use the same structure.
+All four were tested on GPT Image 2.5. [Spring ridge walk](../cases/spring-ridge-walk-leaf-collage-slice-1d5e0d44.md) and [quilled blossom branch](../cases/quilled-blossom-branch-with-birds-7cd0690d.md) use the same structure.
 
 ## Common failures
 
-- **Asking for a flat color surface gives you a flat color surface.** The [cub and paper boat case](../cases/cub-sending-off-a-paper-boat-d16dc431.md) asks for the slice on "a perfectly flat, evenly lit matte pale-blush surface". The file has no alpha channel, and the review classified it as an illustration, not a transparent asset. That prompt is the right one when you want to extend the canvas by matching a flat color. For transparency, use the wording in the template.
+- **Asking for a flat color surface gives you a flat color surface.** The cub and paper boat prompt asks for the slice on "a perfectly flat, evenly lit matte pale-blush surface" ([Cub Sending Off a Paper Boat](../cases/cub-sending-off-a-paper-boat-d16dc431.md)). The file has no alpha channel, and the review classified it as an illustration, not a transparent asset. That prompt is the right one when you want to extend the canvas by matching a flat color. For transparency, use the wording in the template.
 - **Nearly transparent dust at the border.** The tin sun file has an alpha of 1/255 in the bottom-left corner and the screenprint has stray sub-threshold dust along the border. The reviewers read this as effectively transparent, not a background. Check the maximum alpha on each edge of your own file instead of trusting how it looks in a viewer.
 - **A preview is not a file.** Every review here measured the delivered image. Open yours in an editor that shows the alpha channel before you build on it.

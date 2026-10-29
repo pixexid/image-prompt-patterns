@@ -4,7 +4,7 @@ A focused blond architect adjusts a scale model beneath warm task lights as rain
 
 <p align="center"><img src="../assets/blond-man-studies-a-rainy-city-model-9acedb62.jpg" alt="A focused blond architect adjusts a scale model beneath warm task lights as rain blurs the city windows." width="760"></p>
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -47,19 +47,13 @@ Avoid: widened round face, narrow pinched jaw, flat or helmet-like hair, bodybui
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | reference-based identity-preserve |
 | Dimensions | 1370 × 1148 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Independent verification confirmed identity fidelity against the blond-male turnaround: a long oval face clearly longer than wide, broad cheekbones, a firm tapered jaw and medium-square chin, light stubble, and the high swept-wavy hair mass preserved rather than flattened, on an athletic broad-shouldered build. Because the downcast irises read grey-blue at display scale, they were sampled numerically: iris R−B of +61 and +78 against the reference panel's +59 confirms the prompted brown eyes. The reaching hand shows four fingers plus a nailed thumb, the resting hand four nailed fingers with the thumb occluded, and both hands remain fully in frame as asked. Background boards and drawings carry no lettering, and no watermark, extra person, or reference-sheet panel appears.
-
-This team-generated campaign case was produced directly by the pixexid team with built-in imagegen from identity sheets supplied by the founder; it is neither externally published nor made in the pixexid product, so it is labeled **Created for pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). The preview image is hosted in this repository under the same licence.

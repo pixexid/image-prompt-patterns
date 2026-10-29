@@ -6,7 +6,7 @@ A pressed-flower collage slice of a small wren perched on a real pressed twig, b
 
 [Open on pixexid](https://pixexid.com/i/pressed-flower-wren-on-twig-slice-4712aff7)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -22,19 +22,13 @@ The slice sits fully intact with clear transparent margin on every side; the tra
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 1672 × 941 |
 | Transparency | Yes |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** REAL ALPHA verified programmatically at 1024x576: p(0,0)=srgba(0,0,0,0); all four corners and midpoints alpha=0; max alpha on every border row/column = 0/255, so nothing is clipped. Opaque fraction 0.254; content bbox 965x538+28+23 leaves margin on all sides. No drawn checkerboard anywhere. Wren has coherent beak, eye, feet gripping the twig, tail; petals and leaf veins readable. No text or watermark.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

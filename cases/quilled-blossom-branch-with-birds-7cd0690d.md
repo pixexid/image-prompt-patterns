@@ -6,7 +6,7 @@ A paper-quilling slice of a cherry blossom branch with coiled petals and two sma
 
 [Open on pixexid](https://pixexid.com/i/quilled-blossom-branch-with-birds-7cd0690d)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -22,19 +22,13 @@ The slice sits fully intact with clear transparent margin on every side; the tra
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 1254 × 1254 |
 | Transparency | Yes |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** REAL ALPHA verified at 1024x1024: p(0,0)=srgba(0,0,0,0); border max alpha 0-1/255. Opaque fraction 0.261; bbox 998x1007+0+17. Two anatomically coherent quilled birds on one blossom branch; coiled paper petals, leaves and tendrils legible. No detached artifact, text or watermark.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

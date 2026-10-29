@@ -4,7 +4,7 @@ A freckled red-haired woman waters young plants beneath the misted panes of a qu
 
 <p align="center"><img src="../assets/red-haired-woman-tends-the-glasshouse-seedlings-37eb8b40.jpg" alt="A freckled red-haired woman waters young plants beneath the misted panes of a quiet glasshouse." width="760"></p>
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -46,19 +46,13 @@ Avoid: round short face, wide heavy jaw, low compact bun, straight loose hair, p
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | reference-based identity-preserve |
 | Dimensions | 1024 × 1536 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Verification confirmed a narrow long heart-oval face clearly longer than wide, high cheekbones, a small tapered chin, a tall loose copper-red bun with substantial vertical mass and fine wispy tendrils at both temples, and a slim long-limbed athletic build. Eyes are distinctly green-hazel, matching the reference's green-iris panel and satisfying the prompt's 'Avoid: brown eyes'. Freckles are dense across forehead, nose, and cheeks and also on the backs of the hands and forearms, genuinely meeting the 'no missing freckles' constraint rather than approximating it. The watering can is fully coherent - body, rim, handle arc bracketed into the body, spout, and a perforated rose emitting real water - and the pot-steadying hand is cleanly articulated. Note, not a defect: the sprinkle lands on the adjacent seedling tray rather than into the pot her other hand steadies.
-
-This team-generated campaign case was produced directly by the pixexid team with built-in imagegen from identity sheets supplied by the founder; it is neither externally published nor made in the pixexid product, so it is labeled **Created for pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). The preview image is hosted in this repository under the same licence.

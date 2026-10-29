@@ -6,7 +6,7 @@ A wrought-iron slice of a dragonfly with hammered metal wings resting on scrolli
 
 [Open on pixexid](https://pixexid.com/i/iron-dragonfly-on-reeds-slice-2900cbdd)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -22,19 +22,13 @@ The slice sits fully intact with clear transparent margin on every side; the tra
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 1672 × 941 |
 | Transparency | Yes |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** REAL ALPHA verified at 1024x576: p(0,0)=srgba(0,0,0,0), all corners 0, border max alpha 0/255 on all four edges. Opaque fraction 0.183; bbox 963x554+31+11. Four separated wings, segmented abdomen, legs attached to the forged stem. Free-floating leaf and ball fragments are consistent with the scattered-fragment prompt language. Nothing clipped.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

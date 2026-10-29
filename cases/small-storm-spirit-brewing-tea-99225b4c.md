@@ -6,7 +6,7 @@ A gentle storm spirit in an ink-and-gouache character study brews tea while its 
 
 [Open on pixexid](https://pixexid.com/i/small-storm-spirit-brewing-tea-99225b4c)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -22,19 +22,13 @@ The spirit's expression is calm and quietly pleased, and a faint oval shadow gro
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 1254 × 1254 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Verified at 1024px that the loop actually closes: steam rises from the cup on the right and the rain streaks pass the face and land visibly in the tea, satisfying 'a thin rain falls from that cloud neatly back into the same cup'. Both mitten hands hold the cup, two feet, faint oval shadow, generous margin, nothing touches the frame edges. No text.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

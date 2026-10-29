@@ -6,7 +6,7 @@ A four-color screenprint slice of a canal with an arched bridge and a moored boa
 
 [Open on pixexid](https://pixexid.com/i/canal-bridge-screenprint-slice-1919a777)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -22,19 +22,13 @@ The slice sits fully intact with clear transparent margin on every side; the tra
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 1672 × 941 |
 | Transparency | Yes |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** ALTERNATE rank 1. REAL ALPHA verified at 1024x576: p(0,0)=srgba(0,0,0,0); border max alpha 0-1/255 (stray sub-threshold dust only, not a background). Four inks plus cream paper, coarse halftone, deliberate misregistration, arched brick bridge, moored boat at a post, striped awnings, yellow dot window lights, and stray dots scattering into the transparency exactly as prompted. Best transparent alternate; promotable.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

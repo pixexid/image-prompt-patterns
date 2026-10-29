@@ -6,7 +6,7 @@ A cream 1970s-style terminal that never existed glows softly with an abstract au
 
 [Open on pixexid](https://pixexid.com/i/cream-terminal-that-never-existed-b3d4a9d3)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -22,19 +22,13 @@ Soft museum softbox light rakes the enamel, showing faint molding seams and a ge
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 1312 × 1199 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** The canonical page returned HTTP 200 and its title matched. At 1024px this is a clean three-quarter studio shot of a fictional cream-enamel terminal on warm umber seamless: the CRT carries an abstract aurora gradient with no icons or text, both key banks are legend-free, no watermarks, badges, or markings appear, and a soft reflection grounds the console. Zero defects were found.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

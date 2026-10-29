@@ -26,7 +26,7 @@ Curated by the [pixexid team](https://pixexid.com/).
 
 ## Tested on
 
-Every example was made with the generator named on its case page: GPT Image 2.5 through built-in imagegen, with the exact backend variant not exposed. We have not run these prompts on other generators, so they may need small changes there. No seed, quality setting or cost is claimed because those values were not exposed.
+Every example was made with the generator named on its case page: GPT Image 2.5, with the exact backend variant not exposed. We have not run these prompts on other generators, so they may need small changes there. No seed, quality setting or cost is claimed because those values were not exposed.
 
 ## Community comparisons
 

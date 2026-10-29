@@ -4,7 +4,7 @@ Copyright © 2026 pixexid.
 
 The human-readable pages under `cases/`, `patterns/` and `guides/` and the structured catalogue files under `data/` are licensed under [Creative Commons Attribution 4.0 International](LICENSE).
 
-Case images hosted under `assets/` are preview copies of pixexid team-generated work and are relicensed with the catalogue under CC BY 4.0. The reference sheets supplied by the founder to produce those cases are published under `assets/references/` for comparison and are relicensed with the catalogue under CC BY 4.0. Provenance labels are applied as follows: **Curated on pixexid** for work made outside the pixexid product and published there, and **Created for pixexid** for team-generated cases.
+Case images hosted under `assets/` are preview copies of pixexid team-generated work and are relicensed with the catalogue under CC BY 4.0. The reference sheets supplied by the founder to produce those cases are published under `assets/references/` for comparison and are relicensed with the catalogue under CC BY 4.0. 
 
 Attribute reused catalogue material as "Image prompt patterns, by pixexid", link to [this repository](README.md), and identify modifications when applicable.
 

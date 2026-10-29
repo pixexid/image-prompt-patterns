@@ -4,7 +4,7 @@ A blonde woman pauses over an unbranded record sleeve in the warm hush of a vint
 
 <p align="center"><img src="../assets/blond-woman-finds-a-rare-jazz-record-8d3314a5.jpg" alt="A blonde woman pauses over an unbranded record sleeve in the warm hush of a vintage music shop." width="760"></p>
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -46,19 +46,13 @@ Avoid: long narrow face, enlarged chin, long hair, pixie cut, flattened bob, ove
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | reference-based identity-preserve |
 | Dimensions | 1024 × 1536 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Verification confirmed the load-bearing bob geometry against the blond-female turnaround: softly heart-oval face only modestly longer than wide, broad cheekbones, small tapered chin, brown almond eyes, and a rounded chin-length bob with a side part, swept fringe, outer hair mass wider than the jaw, and ends curving inward at jaw level. Both hands hold opposite edges of a single sleeve with coherent grip and no fused or extra digits. Wall shelves and record bins were swept at native resolution for ambient text: every sleeve is abstract colour-field art with no lettering or gibberish. Notes, not defects: the framing runs closer to three-quarter full-length than the prompt's 'mid-length' view, the face carries more eye makeup than the reference's natural look, and the hip-to-waist contrast reads slightly fuller than the compact reference build.
-
-This team-generated campaign case was produced directly by the pixexid team with built-in imagegen from identity sheets supplied by the founder; it is neither externally published nor made in the pixexid product, so it is labeled **Created for pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). The preview image is hosted in this repository under the same licence.

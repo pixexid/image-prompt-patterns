@@ -6,7 +6,7 @@ Standalone digital artwork: a pastel-blue minimalist scooter in a sunlit hillsid
 
 [Open on pixexid](https://pixexid.com/i/06-minimalist-scooter-village-2f97d52a)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -20,19 +20,13 @@ Create a wide 16:9 travel photograph of one completely fictional pastel-blue min
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 1672 × 941 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Brand-free fictional scooter, both wheels and full body inside frame, no readable text/logo/watermark; cobblestone lane, flowering balcony and ochre wall all present. Two minor prompt deviations noted but not defects: mirrors are rounded, not the requested 'rectangular mirrors', and faint embossed emblem-like marks sit on the front shield and left side panel despite the prompt's 'no badge, emblem, medallion' clause. Neither is readable branding.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

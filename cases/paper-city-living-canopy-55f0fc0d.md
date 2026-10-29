@@ -6,7 +6,7 @@ A future city unfolds as layered botanical paper architecture, where green terra
 
 [Open on pixexid](https://pixexid.com/i/paper-city-living-canopy-55f0fc0d)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -20,19 +20,13 @@ Create a wide 16:9 layered-paper artwork of one future green city seen from a lo
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 1672 × 941 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Exactly three tall planted towers - no random extra tower - with one elevated pedestrian bridge, rooftop gardens, hanging vines and a clear vertical garden corridor from foreground parks to the distance. Torn paper layers and cut edges throughout, metallic interfaces kept secondary. No text, logo or watermark.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

@@ -6,7 +6,7 @@ A glossy mint-green futuristic concept motorcycle with blank fairings stands in 
 
 [Open on pixexid](https://pixexid.com/i/mint-concept-motorcycle-in-a-dark-garage-8b5688cf)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -24,19 +24,13 @@ The polished floor mirrors the bike in a soft blurred reflection broken by faint
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 1672 × 941 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Fully framed mint concept bike, coherent tires, discs, forks, fairing and grounded reflection. Fairing panels are blank and unbadged as required; faint unreadable embossing appears only on the rear hub cover, which is not a fairing panel. Single-sided rear hub with radial struts reads as a deliberate concept design, not a missing swingarm.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

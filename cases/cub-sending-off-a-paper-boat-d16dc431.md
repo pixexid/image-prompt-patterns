@@ -6,7 +6,7 @@ A gouache storybook slice of a small bear cub releasing a red paper boat into a 
 
 [Open on pixexid](https://pixexid.com/i/cub-sending-off-a-paper-boat-d16dc431)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -22,19 +22,13 @@ The slice sits fully inside the surface with generous flat breathing room on eve
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 941 × 1672 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Correctly classified as illustration_backgrounds, not transparent_assets: the prompt asks for the slice on a flat pale-blush surface and the file has no alpha channel, matching hasTransparency=false. Cub, red paper boat, ripple trail, feathered gouache rim and flat uniform blush field to all four borders are as prompted. Hindquarters dissolving into foliage is the stated gouache-dissolve effect.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

@@ -23,10 +23,10 @@ Avoid: [the wrong version of each trait above, for example widened round face, b
 
 ## Why each part is there
 
-- **One anchor image, named.** "Image 1 is the sole identity anchor" tells the generator which input decides the face. The two Sema cases use two sheets and give each a job: one for silhouette and hair, one for eyes and mouth.
+- **One anchor image, named.** The rainy studio prompt says "Image 1 is the sole identity anchor" ([Blond Man Studies a Rainy City Model](../cases/blond-man-studies-a-rainy-city-model-9acedb62.md)), which tells the generator which input decides the face. The two Sema cases use two sheets and give each a job: one for silhouette and hair, one for eyes and mouth.
 - **Do not copy the sheet layout.** The line is there to keep the sheet's panel layout out of the scene. The review of the rainy studio case found no reference-sheet panel in the result.
 - **Load-bearing proportions in words.** The reviewers measured these. For the rainy studio case they checked a long oval face, broad cheekbones, a tapered jaw and the high swept hair mass. For the red-haired case they checked the tall loose bun and the green-hazel eyes against the sheet.
-- **An Avoid line that mirrors the traits.** The red-haired prompt lists "brown eyes" in its Avoid line and the review confirmed the eyes are green-hazel. Each trait gets a named wrong version.
+- **An Avoid line that mirrors the traits.** The red-haired prompt lists "brown eyes" ([Red-Haired Woman Tends the Glasshouse Seedlings](../cases/red-haired-woman-tends-the-glasshouse-seedlings-37eb8b40.md)) in its Avoid line and the review confirmed the eyes are green-hazel. Each trait gets a named wrong version.
 - **Counts for hands and limbs.** The merle bulldog review counted four weight-bearing legs and four paws with separated toes, and the tidepool reflection did not read as a second dog.
 
 ## Examples
@@ -42,7 +42,7 @@ Avoid: [the wrong version of each trait above, for example widened round face, b
 </tr>
 </table>
 
-All four were tested on GPT Image 2.5 through built-in imagegen with the sheet as the image input. [Blond woman finds a rare jazz record](../cases/blond-woman-finds-a-rare-jazz-record-8d3314a5.md) uses the same structure.
+All four were tested on GPT Image 2.5 with the sheet as the image input. [Blond woman finds a rare jazz record](../cases/blond-woman-finds-a-rare-jazz-record-8d3314a5.md) uses the same structure.
 
 ## Common failures
 

@@ -6,7 +6,7 @@ A copper machine-heron hunts by sonar in flooded dawn terraces, rendered as a sp
 
 [Open on pixexid](https://pixexid.com/i/copper-heron-machine-hunting-in-flooded-terraces-7fff6a56)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -22,19 +22,13 @@ Terraced bunds step away in pale gold haze, each water level holding a broken re
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 1312 × 1199 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Verified at 1024px: exactly two separated jointed strut-legs, both planted with spreading rings - no third strut. Folded narrow sensor wings, long neck with sensor crest swept low over the water, twin ribbon antennae trailing behind the crown, broken reflection, egret footprints on the mud ridge. Critically, the prompt forbids 'words, labels or legend numbers anywhere' and I found none; rivet and circuit marks are decorative only.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

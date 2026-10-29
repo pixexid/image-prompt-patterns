@@ -6,7 +6,7 @@ A punched-tin relief slice of a radiant sun medallion with hammered rays and pai
 
 [Open on pixexid](https://pixexid.com/i/punched-tin-sun-medallion-slice-946dfa40)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -22,19 +22,13 @@ The slice sits fully intact with clear transparent margin on every side; the tra
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 1254 × 1254 |
 | Transparency | Yes |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** REAL ALPHA verified at 1024x1024: p(0,0)=srgba(0,0,0,0); bottom-left reads srgba(0,0,0,0.00392157) (alpha 1/255, effectively transparent); border max alpha 0-1/255. Opaque fraction 0.479. Centred face is symmetric for the folk-art idiom, concentric punched rings, rays, ribbons, stars and hanging beads all contained. No text or signature.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

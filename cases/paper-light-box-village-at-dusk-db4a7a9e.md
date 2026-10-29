@@ -6,7 +6,7 @@ A backlit carved-paper diorama of a mountain village at dusk with glowing window
 
 [Open on pixexid](https://pixexid.com/i/paper-light-box-village-at-dusk-db4a7a9e)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -24,19 +24,13 @@ Style: precision papercraft diorama photographed inside a square shadow-box fram
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 1254 × 1254 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Framed papercraft light-box with receding cream ridge layers, carved window openings, village gate, bridges, a paper river to the front layer, one round lantern strung between two paper pines, and the sitting-cat silhouette in a single lit window. No people, no writing. Ridge layers overlap too closely to count six with certainty, as the original reviewer also noted.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

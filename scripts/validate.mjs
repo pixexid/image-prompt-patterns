@@ -225,7 +225,6 @@ for (const item of catalog.cases) {
         page.includes(item.exact_prompt) &&
         page.includes(item.execution_prompt) &&
         page.includes(item.review.notes) &&
-        page.includes("Created for pixexid") &&
         item.references.every((reference) => page.includes(reference.sha256)),
       "Incomplete team case page: " + item.slug,
     );
@@ -257,21 +256,29 @@ for (const item of catalog.cases) {
   }
 }
 
-const prompts = new Map(
+export const prompts = new Map(
   catalog.cases.map((item) => [item.slug, [item.exact_prompt, item.execution_prompt ?? ""].join("\n").toLowerCase()]),
 );
-const allPrompts = [...prompts.values()].join("\n");
+
+export function quoteError(prose) {
+  for (const [, quote, slug] of prose.matchAll(
+    /"([^"\n]+)"( \(\[[^\]]+\]\(\.\.\/cases\/(?:([a-z0-9-]+))\.md\)\))?/g,
+  ).map((m) => [m[0], m[1], m[3]])) {
+    if (!slug) return "Quote without case link: " + quote;
+    if (!prompts.get(slug)?.includes(quote.toLowerCase()))
+      return "Quote not in " + slug + " prompt: " + quote;
+  }
+}
+
 const docs = ["README.md"];
 for (const dir of ["patterns", "guides"])
   for (const name of await readdir(join(root, dir))) docs.push(dir + "/" + name);
 for (const doc of docs) {
   const text = await readFile(join(root, doc), "utf8");
-  const prose = text.replace(/```[\s\S]*?```/g, "").replace(/<[^>]+>/g, "");
-  for (const [, quote, slug] of prose.matchAll(/"([^"\n]+)" \(\[[^\]]+\]\(\.\.\/cases\/([a-z0-9-]+)\.md\)\)/g))
-    assert(prompts.get(slug)?.includes(quote.toLowerCase()), "Quote not in " + slug + " prompt: " + quote);
-  if (doc !== "README.md")
-    for (const [, quote] of prose.matchAll(/"([^"\n]+)"/g))
-      assert(allPrompts.includes(quote.toLowerCase()), "Quote not in any prompt: " + doc + ": " + quote);
+  if (doc !== "README.md") {
+    const error = quoteError(text.replace(/```[\s\S]*?```/g, "").replace(/<[^>]+>/g, ""));
+    assert(!error, doc + ": " + error);
+  }
   for (const [, target] of text.matchAll(/(?:\]\(|href="|src="|\bsrc=")(?!https?:|#|mailto:)([^)"#\s]+)/g))
     await access(join(root, dirname(doc), target));
 }

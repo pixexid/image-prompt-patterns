@@ -6,7 +6,7 @@ A needle-felted rust fox sleeps curled on a small wool cloud under a golden felt
 
 [Open on pixexid](https://pixexid.com/i/felted-fox-asleep-on-a-wool-cloud-8c8d1e4b)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -24,19 +24,13 @@ Soft window light falls from the upper left, gentle and even, sharpening the fuz
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 1254 × 1254 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Matches the prompt item by item: curled fox with cream chest and tail tip over its nose, palm-sized wool cloud, one golden crescent with exactly two felt stars - one dusk blue, one moss green - spaced well apart, a single loose fibre catching light on the fox's back, soft light from the upper left, faint shadow beneath the cloud. Hanging threads leaving the top edge are consistent with the prompted nursery-mobile framing.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

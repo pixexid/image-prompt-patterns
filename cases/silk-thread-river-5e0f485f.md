@@ -6,7 +6,7 @@ A seated textile performer guides one vermilion thread from an embroidery hoop i
 
 [Open on pixexid](https://pixexid.com/i/silk-thread-river-5e0f485f)
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -20,19 +20,13 @@ A vertical editorial textile illustration on a warm cream paper ground: a solita
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | txt2img |
 | Dimensions | 1024 × 1536 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Thread continuity verified: one vermilion thread runs unbroken from the needle, down through the hoop, into the winding river and out onto the cloth below. Exactly three tiny indigo boats resting on the river surface. Hoop holds pale reeds and distant blue hills; robe is dense floral stitch work. No words, letters or typography anywhere.
-
-This result was made outside the pixexid product and is **Curated on pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed by this repository.

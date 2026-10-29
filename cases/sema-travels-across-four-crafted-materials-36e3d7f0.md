@@ -4,7 +4,7 @@ Sema's fixed identity moves across wool, ceramic, carved wood, and translucent r
 
 <p align="center"><img src="../assets/sema-travels-across-four-crafted-materials-36e3d7f0.jpg" alt="Sema's fixed identity moves across wool, ceramic, carved wood, and translucent resin in one comparative study." width="760"></p>
 
-**Tested on:** GPT Image 2.5, built-in imagegen (the exact backend variant was not exposed). Other generators may need small changes to this prompt.
+**Tested on:** GPT Image 2.5 (exact backend variant not exposed). Other generators may need small changes to this prompt.
 
 ## Prompt
 
@@ -50,19 +50,13 @@ Avoid: taller oval heads, narrow face insets, reversed or centered fringe, reali
 
 | Field | Value |
 | --- | --- |
-| Tested on | GPT Image 2.5 |
-| Generation tool | built-in imagegen |
-| Exact backend | unknown |
+| Tested on | GPT Image 2.5 (exact backend variant not exposed) |
 | Mode | reference-based style-transfer |
 | Dimensions | 1254 × 1254 |
 | Transparency | No |
 
-Generated with built-in imagegen. Listed under the GPT Image 2.5 family; the exact backend variant was not exposed.
-
 ## Review notes and limitations
 
 **pass · checked 2026-09-17.** Verification confirmed four genuinely distinct materials rather than four colourways: needle-felted wool with matted fibre nap and stitched features, glazed ceramic with pooled gloss in the contour channels, carved painted wood with directional grain and chiselled tool facets, and translucent cast resin with internal depth and suspended pigment flecks. The same head appears in all four cells - measured head bounding boxes of 444×414, 426×405, 429×410, and 451×433 give a width spread of 5.9% and a height spread of 6.9%, with every W/H ratio in 1.042 to 1.072. Grid geometry was measured as an exact 2×2 with a complete outer border - full-width rules at y=6 to 7, 623 to 624, and 1246 to 1247, full-height rules at x=6 to 7, 626 to 627, and 1246 to 1247 - with each head well inside its cell and no boundary overlap. Exactly four heads, no labels, captions, text, or watermark.
-
-This team-generated campaign case was produced directly by the pixexid team with built-in imagegen from identity sheets supplied by the founder; it is neither externally published nor made in the pixexid product, so it is labeled **Created for pixexid**.
 
 Catalogue text and data are licensed under [CC BY 4.0](../LICENSE). The preview image is hosted in this repository under the same licence.

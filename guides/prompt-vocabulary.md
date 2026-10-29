@@ -1,6 +1,6 @@
 # Prompt vocabulary
 
-Terms for lighting, lens, composition, material and print, each tied to a prompt in this repository that uses it. The quoted phrase is copied from the case prompt, and each case page shows the image it produced. All examples were tested on GPT Image 2.5 through built-in imagegen. Other generators may read these terms differently.
+Terms for lighting, lens, composition, material and print, each tied to a prompt in this repository that uses it. The quoted phrase is copied from the case prompt, and each case page shows the image it produced. All examples were tested on GPT Image 2.5. Other generators may read these terms differently.
 
 ## Lighting
 
